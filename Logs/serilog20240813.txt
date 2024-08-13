@@ -216,3 +216,99 @@ ORDER BY `a`.`Id`
 2024-08-13 12:26:06.446 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbums (Backend_dev)'
 2024-08-13 12:26:06.447 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/albums - 200 null application/json; charset=utf-8 18.3222ms
 2024-08-13 12:27:11.977 +02:00 [INF] Application is shutting down...
+2024-08-13 12:38:56.581 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-13 12:38:56.613 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-13 12:38:56.614 +02:00 [INF] Hosting environment: Development
+2024-08-13 12:38:56.615 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-13 12:39:14.116 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/albums - null null
+2024-08-13 12:39:14.136 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbums (Backend_dev)'
+2024-08-13 12:39:14.146 +02:00 [INF] Route matched with {action = "GetAlbums", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAlbums() on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-13 12:39:14.260 +02:00 [INF] Fetching all albums
+2024-08-13 12:39:14.901 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Description`, `a`.`Title`, `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Albums` AS `a`
+LEFT JOIN `Photos` AS `p` ON `a`.`Id` = `p`.`AlbumId`
+ORDER BY `a`.`Id`
+2024-08-13 12:39:14.953 +02:00 [INF] Successfully fetched all albums
+2024-08-13 12:39:14.957 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.AlbumDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:39:14.991 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.GetAlbums (Backend_dev) in 841.524ms
+2024-08-13 12:39:14.995 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbums (Backend_dev)'
+2024-08-13 12:39:15.002 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/albums - 200 null application/json; charset=utf-8 886.002ms
+2024-08-13 12:39:22.886 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:39:22.889 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:39:22.892 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:39:22.896 +02:00 [INF] Fetching all photos
+2024-08-13 12:39:22.914 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:39:22.920 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:39:22.922 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:39:22.930 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 36.1314ms
+2024-08-13 12:39:22.931 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:39:22.932 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 45.8002ms
+2024-08-13 12:39:30.051 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos/1 - null null
+2024-08-13 12:39:30.053 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhoto (Backend_dev)'
+2024-08-13 12:39:30.060 +02:00 [INF] Route matched with {action = "GetPhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PhotoAlbumApi.Models.Photo]] GetPhoto(Int32) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:39:30.073 +02:00 [INF] Fetching photo with ID: 1
+2024-08-13 12:39:30.125 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+WHERE `p`.`Id` = @__p_0
+LIMIT 1
+2024-08-13 12:39:30.131 +02:00 [INF] Successfully fetched photo with ID: 1
+2024-08-13 12:39:30.134 +02:00 [INF] Executing OkObjectResult, writing value of type 'PhotoAlbumApi.Models.Photo'.
+2024-08-13 12:39:30.135 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhoto (Backend_dev) in 73.6237ms
+2024-08-13 12:39:30.135 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhoto (Backend_dev)'
+2024-08-13 12:39:30.136 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos/1 - 200 null application/json; charset=utf-8 85.2575ms
+2024-08-13 12:39:50.410 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/photos - application/json 238
+2024-08-13 12:39:50.412 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev)'
+2024-08-13 12:39:50.417 +02:00 [INF] Route matched with {action = "AddPhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PhotoAlbumApi.Models.Photo]] AddPhoto(PhotoAlbumApi.Models.Photo) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:39:50.454 +02:00 [INF] Adding a new photo
+2024-08-13 12:39:50.734 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__photo_Hash_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+WHERE `p`.`Hash` = @__photo_Hash_0
+LIMIT 1
+2024-08-13 12:39:50.745 +02:00 [ERR] Error adding photo
+System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 52
+2024-08-13 12:39:50.747 +02:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-13 12:39:50.751 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev) in 332.6563ms
+2024-08-13 12:39:50.753 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev)'
+2024-08-13 12:39:50.754 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/photos - 409 null application/json; charset=utf-8 343.45ms
+2024-08-13 12:41:12.211 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/albums - application/json 71
+2024-08-13 12:41:12.214 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.AddAlbum (Backend_dev)'
+2024-08-13 12:41:12.219 +02:00 [INF] Route matched with {action = "AddAlbum", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddAlbum(PhotoAlbumApi.DTOs.AlbumDto) on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-13 12:41:12.227 +02:00 [INF] Adding a new album
+2024-08-13 12:41:12.302 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 500), @p1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Albums` (`Description`, `Title`)
+VALUES (@p0, @p1);
+SELECT `Id`
+FROM `Albums`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-08-13 12:41:12.328 +02:00 [INF] Successfully added a new album with ID: 22
+2024-08-13 12:41:12.330 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'PhotoAlbumApi.DTOs.AlbumDto'.
+2024-08-13 12:41:12.341 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.AddAlbum (Backend_dev) in 120.4336ms
+2024-08-13 12:41:12.342 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.AddAlbum (Backend_dev)'
+2024-08-13 12:41:12.343 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/albums - 201 null application/json; charset=utf-8 131.7291ms
+2024-08-13 12:41:41.856 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/photos - application/json 176
+2024-08-13 12:41:41.860 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev)'
+2024-08-13 12:41:41.862 +02:00 [INF] Route matched with {action = "AddPhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[PhotoAlbumApi.Models.Photo]] AddPhoto(PhotoAlbumApi.Models.Photo) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:41:41.866 +02:00 [INF] Adding a new photo
+2024-08-13 12:41:42.379 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__photo_Hash_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+WHERE `p`.`Hash` = @__photo_Hash_0
+LIMIT 1
+2024-08-13 12:41:42.391 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 500), @p3='?' (Size = 10), @p4='?' (Size = 255), @p5='?' (Size = 64), @p6='?' (Size = 100), @p7='?' (Size = 2083)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Photos` (`AlbumId`, `DateUploaded`, `Description`, `Extension`, `FilePath`, `Hash`, `Title`, `Url`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT `Id`
+FROM `Photos`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-08-13 12:41:42.401 +02:00 [INF] Successfully added a new photo with ID: 6
+2024-08-13 12:41:42.403 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'PhotoAlbumApi.Models.Photo'.
+2024-08-13 12:41:42.404 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev) in 539.8997ms
+2024-08-13 12:41:42.405 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev)'
+2024-08-13 12:41:42.406 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/photos - 201 null application/json; charset=utf-8 549.8782ms

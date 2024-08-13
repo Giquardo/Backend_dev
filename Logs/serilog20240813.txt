@@ -1,0 +1,218 @@
+2024-08-13 09:37:15.869 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-13 09:37:15.894 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-13 09:37:15.895 +02:00 [INF] Hosting environment: Development
+2024-08-13 09:37:15.896 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-13 12:22:54.650 +02:00 [INF] Application is shutting down...
+2024-08-13 12:23:53.699 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-13 12:23:53.727 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-13 12:23:53.729 +02:00 [INF] Hosting environment: Development
+2024-08-13 12:23:53.729 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-13 12:23:56.364 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:23:56.383 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:23:56.398 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:23:56.484 +02:00 [INF] Fetching all photos
+2024-08-13 12:23:57.061 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:23:57.095 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:23:57.100 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:23:57.142 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 737.7944ms
+2024-08-13 12:23:57.145 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:23:57.150 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 787.2787ms
+2024-08-13 12:24:32.268 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:24:32.270 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:24:32.271 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:24:32.273 +02:00 [INF] Fetching all photos
+2024-08-13 12:24:32.286 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:24:32.289 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:24:32.290 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:24:32.292 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 19.8045ms
+2024-08-13 12:24:32.293 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:24:32.295 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 26.9968ms
+2024-08-13 12:24:40.336 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/albums - null null
+2024-08-13 12:24:40.338 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbums (Backend_dev)'
+2024-08-13 12:24:40.342 +02:00 [INF] Route matched with {action = "GetAlbums", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAlbums() on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-13 12:24:40.399 +02:00 [INF] Fetching all albums
+2024-08-13 12:24:40.509 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Description`, `a`.`Title`, `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Albums` AS `a`
+LEFT JOIN `Photos` AS `p` ON `a`.`Id` = `p`.`AlbumId`
+ORDER BY `a`.`Id`
+2024-08-13 12:24:40.530 +02:00 [INF] Successfully fetched all albums
+2024-08-13 12:24:40.533 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.AlbumDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:24:40.540 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.GetAlbums (Backend_dev) in 196.296ms
+2024-08-13 12:24:40.541 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbums (Backend_dev)'
+2024-08-13 12:24:40.543 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/albums - 200 null application/json; charset=utf-8 206.2431ms
+2024-08-13 12:25:29.438 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:29.439 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:29.440 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:29.442 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:29.446 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:29.449 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:29.449 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:29.451 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 9.2737ms
+2024-08-13 12:25:29.452 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:29.452 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 14.7227ms
+2024-08-13 12:25:46.969 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:46.971 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:46.972 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:46.973 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:46.977 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:46.980 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:46.980 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:46.982 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 8.9887ms
+2024-08-13 12:25:46.983 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:46.984 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 14.7875ms
+2024-08-13 12:25:47.767 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:47.769 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:47.770 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:47.771 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:47.773 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:47.775 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:47.776 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:47.777 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 6.0122ms
+2024-08-13 12:25:47.778 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:47.778 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 11.2538ms
+2024-08-13 12:25:48.333 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:48.335 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:48.336 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:48.337 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:48.340 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:48.341 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:48.342 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:48.343 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 6.1928ms
+2024-08-13 12:25:48.344 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:48.345 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 12.0293ms
+2024-08-13 12:25:48.537 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:48.540 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:48.541 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:48.542 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:48.546 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:48.549 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:48.549 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:48.551 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 8.5486ms
+2024-08-13 12:25:48.552 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:48.554 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 16.4992ms
+2024-08-13 12:25:48.728 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:48.729 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:48.730 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:48.731 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:48.734 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:48.735 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:48.736 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:48.737 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 5.9455ms
+2024-08-13 12:25:48.738 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:48.738 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 10.984ms
+2024-08-13 12:25:48.932 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:48.935 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:48.936 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:48.937 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:48.940 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:48.942 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:48.942 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:48.943 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 6.1627ms
+2024-08-13 12:25:48.944 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:48.945 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 13.0943ms
+2024-08-13 12:25:49.181 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:49.184 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:49.184 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:49.185 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:49.188 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:49.190 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:49.190 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:49.192 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 6.4645ms
+2024-08-13 12:25:49.193 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:49.194 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 12.2352ms
+2024-08-13 12:25:49.546 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:49.548 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:49.549 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:49.550 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:49.553 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:49.554 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:49.555 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:49.557 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 6.515ms
+2024-08-13 12:25:49.558 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:49.558 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 12.1269ms
+2024-08-13 12:25:49.864 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:49.866 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:49.866 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:49.868 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:49.870 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:49.872 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:49.873 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:49.874 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 6.5978ms
+2024-08-13 12:25:49.875 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:49.876 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 12.0779ms
+2024-08-13 12:25:50.059 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:50.062 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:50.063 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:50.064 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:50.067 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:50.068 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:50.069 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:50.070 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 5.6479ms
+2024-08-13 12:25:50.070 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:50.071 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 11.6724ms
+2024-08-13 12:25:50.213 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:50.215 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:50.215 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:50.217 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:50.219 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:50.221 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:50.221 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:50.222 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 5.5866ms
+2024-08-13 12:25:50.223 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:50.224 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 11.0039ms
+2024-08-13 12:25:50.355 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-13 12:25:50.357 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:50.357 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-13 12:25:50.359 +02:00 [INF] Fetching all photos
+2024-08-13 12:25:50.361 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-13 12:25:50.363 +02:00 [INF] Successfully fetched all photos
+2024-08-13 12:25:50.363 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:25:50.364 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 6.0018ms
+2024-08-13 12:25:50.365 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-13 12:25:50.366 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 11.4488ms
+2024-08-13 12:26:06.428 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/albums - null null
+2024-08-13 12:26:06.430 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbums (Backend_dev)'
+2024-08-13 12:26:06.431 +02:00 [INF] Route matched with {action = "GetAlbums", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAlbums() on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-13 12:26:06.433 +02:00 [INF] Fetching all albums
+2024-08-13 12:26:06.437 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Description`, `a`.`Title`, `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Albums` AS `a`
+LEFT JOIN `Photos` AS `p` ON `a`.`Id` = `p`.`AlbumId`
+ORDER BY `a`.`Id`
+2024-08-13 12:26:06.443 +02:00 [INF] Successfully fetched all albums
+2024-08-13 12:26:06.444 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.AlbumDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-13 12:26:06.445 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.GetAlbums (Backend_dev) in 12.77ms
+2024-08-13 12:26:06.446 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbums (Backend_dev)'
+2024-08-13 12:26:06.447 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/albums - 200 null application/json; charset=utf-8 18.3222ms
+2024-08-13 12:27:11.977 +02:00 [INF] Application is shutting down...

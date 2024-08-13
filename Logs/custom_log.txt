@@ -1,0 +1,78 @@
+2024-08-12 00:33:17 [Information] - Fetching all albums
+2024-08-12 00:33:18 [Information] - Successfully fetched all albums
+2024-08-12 00:34:07 [Information] - Fetching all albums
+2024-08-12 00:34:07 [Information] - Successfully fetched all albums
+2024-08-12 00:58:32 [Information] - Fetching all albums
+2024-08-12 00:58:32 [Information] - Successfully fetched all albums
+2024-08-12 09:21:24 [Information] - Fetching all albums
+2024-08-12 09:21:25 [Information] - Successfully fetched all albums
+2024-08-12 09:21:29 [Information] - Fetching album with ID: 14
+2024-08-12 09:21:29 [Warning] - Album with ID: 14 not found
+2024-08-12 09:21:36 [Information] - Fetching album with ID: 13
+2024-08-12 09:21:36 [Information] - Successfully fetched album with ID: 13
+2024-08-12 09:21:39 [Information] - Adding a new album
+2024-08-12 09:21:39 [Information] - Successfully added a new album with ID: 15
+2024-08-12 09:21:44 [Information] - Updating album with ID: 14
+2024-08-12 09:21:44 [Warning] - Album with ID: 14 not found
+2024-08-12 09:21:52 [Information] - Updating album with ID: 13
+2024-08-12 09:21:52 [Information] - Successfully updated album with ID: 13
+2024-08-12 09:21:59 [Information] - Attempting to delete album with ID: 13
+2024-08-12 09:21:59 [Information] - Successfully deleted album with ID: 13
+2024-08-12 09:47:19 [Information] - Fetching all albums
+2024-08-12 09:47:20 [Information] - Successfully fetched all albums
+2024-08-12 09:48:00 [Information] - Fetching album with ID: 13
+2024-08-12 09:48:00 [Warning] - Album with ID: 13 not found
+2024-08-12 09:48:08 [Information] - Fetching album with ID: 1
+2024-08-12 09:48:08 [Information] - Successfully fetched album with ID: 1
+2024-08-12 09:49:53 [Information] - Fetching all albums
+2024-08-12 09:49:54 [Information] - Successfully fetched all albums
+2024-08-12 09:49:57 [Information] - Fetching album with ID: 1
+2024-08-12 09:49:57 [Information] - Successfully fetched album with ID: 1
+2024-08-12 09:50:15 [Information] - Fetching all albums
+2024-08-12 09:50:16 [Information] - Successfully fetched all albums
+2024-08-12 09:50:21 [Information] - Fetching album with ID: 1
+2024-08-12 09:50:21 [Information] - Successfully fetched album with ID: 1
+2024-08-12 18:03:35 [Information] - Fetching all albums
+2024-08-12 18:03:35 [Information] - Successfully fetched all albums
+2024-08-12 18:03:39 [Information] - Fetching album with ID: 1
+2024-08-12 18:03:39 [Information] - Successfully fetched album with ID: 1
+2024-08-12 18:03:41 [Information] - Adding a new album
+2024-08-12 18:03:42 [Information] - Successfully added a new album with ID: 16
+2024-08-12 18:04:01 [Information] - Adding a new album
+2024-08-12 18:04:01 [Information] - Successfully added a new album with ID: 17
+2024-08-12 18:11:50 [Information] - Adding a new album
+2024-08-12 18:11:50 [Information] - Successfully added a new album with ID: 18
+2024-08-12 18:12:08 [Information] - Adding a new album
+2024-08-12 18:12:08 [Information] - Successfully added a new album with ID: 19
+2024-08-12 18:27:18 [Information] - Fetching all albums
+2024-08-12 18:27:19 [Information] - Successfully fetched all albums
+2024-08-12 18:27:22 [Information] - Fetching album with ID: 1
+2024-08-12 18:27:22 [Information] - Successfully fetched album with ID: 1
+2024-08-12 18:27:32 [Information] - Adding a new album
+2024-08-12 18:27:32 [Information] - Successfully added a new album with ID: 20
+2024-08-12 18:27:34 [Information] - Adding a new album
+2024-08-12 18:27:34 [Information] - Successfully added a new album with ID: 21
+2024-08-12 18:27:48 [Information] - Updating album with ID: 20
+2024-08-12 18:27:48 [Information] - Successfully updated album with ID: 20
+2024-08-12 18:27:53 [Information] - Fetching album with ID: 20
+2024-08-12 18:27:53 [Information] - Successfully fetched album with ID: 20
+2024-08-12 18:27:59 [Information] - Attempting to delete album with ID: 20
+2024-08-12 18:27:59 [Information] - Successfully deleted album with ID: 20
+2024-08-13 12:24:40 [Information] - Fetching all albums
+2024-08-13 12:24:40 [Information] - Successfully fetched all albums
+2024-08-13 12:26:06 [Information] - Fetching all albums
+2024-08-13 12:26:06 [Information] - Successfully fetched all albums
+2024-08-13 12:39:14 [Information] - Fetching all albums
+2024-08-13 12:39:14 [Information] - Successfully fetched all albums
+2024-08-13 12:39:22 [Information] - Fetching all photos
+2024-08-13 12:39:22 [Information] - Successfully fetched all photos
+2024-08-13 12:39:30 [Information] - Fetching photo with ID: 1
+2024-08-13 12:39:30 [Information] - Successfully fetched photo with ID: 1
+2024-08-13 12:39:50 [Information] - Adding a new photo
+2024-08-13 12:39:50 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 52
+2024-08-13 12:41:12 [Information] - Adding a new album
+2024-08-13 12:41:12 [Information] - Successfully added a new album with ID: 22
+2024-08-13 12:41:41 [Information] - Adding a new photo
+2024-08-13 12:41:42 [Information] - Successfully added a new photo with ID: 6

@@ -135,3 +135,8 @@ C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

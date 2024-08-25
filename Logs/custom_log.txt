@@ -76,3 +76,401 @@
 2024-08-13 12:41:12 [Information] - Successfully added a new album with ID: 22
 2024-08-13 12:41:41 [Information] - Adding a new photo
 2024-08-13 12:41:42 [Information] - Successfully added a new photo with ID: 6
+2024-08-13 12:45:18 [Information] - Fetching photo with ID: 1
+2024-08-13 12:45:19 [Information] - Successfully fetched photo with ID: 1
+2024-08-13 12:45:23 [Information] - Fetching photo with ID: 22
+2024-08-13 12:45:23 [Warning] - Photo with ID: 22 not found
+2024-08-13 12:45:29 [Information] - Fetching photo with ID: 6
+2024-08-13 12:45:29 [Information] - Successfully fetched photo with ID: 6
+2024-08-13 13:02:04 [Information] - Adding a new photo
+2024-08-13 13:02:05 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 52
+2024-08-13 13:05:25 [Information] - Adding a new photo
+2024-08-13 13:05:26 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 61
+2024-08-13 13:07:12 [Information] - Adding a new photo
+2024-08-13 13:07:13 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 71
+2024-08-13 13:08:21 [Information] - Adding a new photo
+2024-08-13 13:08:22 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 74
+2024-08-13 13:09:41 [Information] - Adding a new photo
+2024-08-13 13:09:42 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 74
+2024-08-13 13:14:52 [Warning] - Validation failed for new photo.
+2024-08-13 13:14:57 [Warning] - Validation failed for new photo.
+2024-08-13 13:23:38 [Information] - Fetching photo with ID: 6
+2024-08-13 13:23:38 [Information] - Successfully fetched photo with ID: 6
+2024-08-13 13:23:49 [Information] - Adding a new photo
+2024-08-13 13:23:49 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 68
+2024-08-13 13:30:26 [Information] - Fetching all photos
+2024-08-13 13:30:27 [Information] - Successfully fetched all photos
+2024-08-13 13:30:29 [Information] - Adding a new photo
+2024-08-13 13:30:29 [Debug] - Starting validation for the photo
+2024-08-13 13:30:29 [Debug] - Validation successful
+2024-08-13 13:30:29 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 70
+2024-08-13 13:39:02 [Information] - Fetching all photos
+2024-08-13 13:39:02 [Information] - Successfully fetched all photos
+2024-08-13 13:39:16 [Information] - Adding a new photo
+2024-08-13 13:39:16 [Debug] - Starting validation for the photo
+2024-08-13 13:39:16 [Debug] - Validation successful
+2024-08-13 13:39:16 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 70
+2024-08-13 13:46:27 [Information] - Fetching all photos
+2024-08-13 13:46:27 [Information] - Successfully fetched all photos
+2024-08-13 13:46:31 [Information] - Adding a new photo
+2024-08-13 13:46:32 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 68
+2024-08-13 13:46:35 [Information] - Adding a new photo
+2024-08-13 13:46:35 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 68
+2024-08-13 13:56:25 [Information] - Adding a new photo
+2024-08-13 13:56:26 [Information] - Successfully added a new photo with ID: 7
+2024-08-13 13:56:31 [Information] - Adding a new photo
+2024-08-13 13:56:31 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 68
+2024-08-13 13:57:57 [Information] - Adding a new photo
+2024-08-13 13:57:57 [Debug] - Starting photo validation
+2024-08-13 13:57:57 [Debug] - Completed photo validation
+2024-08-13 13:57:58 [Information] - Successfully added a new photo with ID: 8
+2024-08-13 13:59:55 [Information] - Adding a new photo
+2024-08-13 13:59:55 [Debug] - Starting photo validation
+2024-08-13 13:59:55 [Debug] - Completed photo validation
+2024-08-13 13:59:56 [Information] - Successfully added a new photo with ID: 9
+2024-08-13 14:00:00 [Information] - Adding a new photo
+2024-08-13 14:00:00 [Debug] - Starting photo validation
+2024-08-13 14:00:00 [Debug] - Completed photo validation
+2024-08-13 14:00:00 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 71
+2024-08-13 14:04:58 [Information] - Adding a new photo
+2024-08-13 14:04:58 [Debug] - Starting photo validation
+2024-08-13 14:04:58 [Debug] - Completed photo validation
+2024-08-13 14:04:59 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 73
+2024-08-13 14:10:02 [Information] - Fetching all albums
+2024-08-13 14:10:02 [Information] - Successfully fetched all albums
+2024-08-13 14:10:04 [Information] - Adding a new album
+2024-08-13 14:10:04 [Information] - Successfully added a new album with ID: 23
+2024-08-13 14:10:08 [Information] - Attempting to delete album with ID: 20
+2024-08-13 14:10:08 [Warning] - Album with ID: 20 not found
+2024-08-13 14:10:11 [Information] - Fetching all photos
+2024-08-13 14:10:11 [Information] - Successfully fetched all photos
+2024-08-13 14:10:23 [Information] - Adding a new photo
+2024-08-13 14:10:23 [Debug] - Starting photo validation
+2024-08-13 14:10:23 [Debug] - Completed photo validation
+2024-08-13 14:10:23 [Information] - Photo validation successful
+2024-08-13 14:10:23 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 73
+2024-08-13 14:10:40 [Information] - Adding a new photo
+2024-08-13 14:10:40 [Debug] - Starting photo validation
+2024-08-13 14:10:40 [Debug] - Completed photo validation
+2024-08-13 14:10:40 [Information] - Photo validation successful
+2024-08-13 14:10:40 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 73
+2024-08-13 14:12:58 [Information] - Fetching all photos
+2024-08-13 14:12:58 [Information] - Successfully fetched all photos
+2024-08-13 14:13:00 [Information] - Fetching photo with ID: 6
+2024-08-13 14:13:00 [Information] - Successfully fetched photo with ID: 6
+2024-08-13 14:13:06 [Information] - Adding a new photo
+2024-08-13 14:13:06 [Debug] - Starting photo validation
+2024-08-13 14:13:06 [Debug] - Completed photo validation
+2024-08-13 14:13:06 [Information] - Photo validation successful
+2024-08-13 14:13:07 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 80
+2024-08-13 14:17:39 [Information] - Fetching all photos
+2024-08-13 14:17:39 [Information] - Successfully fetched all photos
+2024-08-13 14:17:54 [Information] - Adding a new photo
+2024-08-13 14:17:55 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 55
+2024-08-13 14:39:12 [Information] - Adding a new photo
+2024-08-13 14:39:12 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 55
+2024-08-13 14:40:47 [Information] - Adding a new photo
+2024-08-13 14:40:47 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 57
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 55
+2024-08-14 10:00:48 [Information] - Fetching all albums (v1)
+2024-08-14 10:00:49 [Information] - Successfully fetched all albums (v1)
+2024-08-14 10:00:51 [Information] - Fetching all albums (v2)
+2024-08-14 10:00:51 [Information] - Successfully fetched all albums (v2)
+2024-08-14 10:00:56 [Information] - Fetching all albums (v2)
+2024-08-14 10:00:56 [Information] - Successfully fetched all albums (v2)
+2024-08-14 10:00:57 [Information] - Fetching all albums (v1)
+2024-08-14 10:00:57 [Information] - Successfully fetched all albums (v1)
+2024-08-14 10:02:32 [Information] - Fetching all albums (v2)
+2024-08-14 10:02:32 [Information] - Successfully fetched all albums (v2)
+2024-08-14 10:02:32 [Information] - Fetching album with ID: 20
+2024-08-14 10:02:32 [Warning] - Album with ID: 20 not found
+2024-08-14 10:02:37 [Information] - Fetching album with ID: 2
+2024-08-14 10:02:37 [Information] - Successfully fetched album with ID: 2
+2024-08-14 10:02:41 [Information] - Fetching album with ID: 2
+2024-08-14 10:02:41 [Information] - Successfully fetched album with ID: 2
+2024-08-14 10:02:43 [Information] - Fetching album with ID: 2
+2024-08-14 10:02:43 [Information] - Successfully fetched album with ID: 2
+2024-08-14 10:02:44 [Information] - Fetching album with ID: 2
+2024-08-14 10:02:44 [Information] - Successfully fetched album with ID: 2
+2024-08-14 10:02:45 [Information] - Fetching album with ID: 2
+2024-08-14 10:02:45 [Information] - Successfully fetched album with ID: 2
+2024-08-14 10:02:47 [Information] - Fetching album with ID: 2
+2024-08-14 10:02:47 [Information] - Successfully fetched album with ID: 2
+2024-08-14 10:02:48 [Information] - Adding a new album
+2024-08-14 10:02:48 [Information] - Successfully added a new album with ID: 24
+2024-08-14 10:02:51 [Information] - Adding a new album
+2024-08-14 10:02:51 [Information] - Successfully added a new album with ID: 25
+2024-08-14 10:03:04 [Information] - Updating album with ID: 25
+2024-08-14 10:03:04 [Information] - Successfully updated album with ID: 25
+2024-08-14 10:03:09 [Information] - Updating album with ID: 25
+2024-08-14 10:03:09 [Information] - Successfully updated album with ID: 25
+2024-08-14 10:03:14 [Information] - Attempting to delete album with ID: 25
+2024-08-14 10:03:14 [Information] - Successfully deleted album with ID: 25
+2024-08-14 10:03:18 [Information] - Attempting to delete album with ID: 24
+2024-08-14 10:03:18 [Information] - Successfully deleted album with ID: 24
+2024-08-14 10:03:21 [Information] - Fetching all albums (v1)
+2024-08-14 10:03:21 [Information] - Successfully fetched all albums (v1)
+2024-08-14 10:07:49 [Information] - Fetching all albums (v1)
+2024-08-14 10:07:50 [Information] - Successfully fetched all albums (v1)
+2024-08-14 10:07:52 [Information] - Fetching all albums (v2)
+2024-08-14 10:07:52 [Information] - Successfully fetched all albums (v2)
+2024-08-14 10:07:54 [Information] - Fetching album with ID: 2
+2024-08-14 10:07:54 [Information] - Successfully fetched album with ID: 2
+2024-08-14 10:07:58 [Information] - Fetching album with ID: 3
+2024-08-14 10:07:58 [Information] - Successfully fetched album with ID: 3
+2024-08-14 10:07:59 [Information] - Fetching album with ID: 3
+2024-08-14 10:07:59 [Information] - Successfully fetched album with ID: 3
+2024-08-14 10:08:00 [Information] - Fetching album with ID: 3
+2024-08-14 10:08:00 [Information] - Successfully fetched album with ID: 3
+2024-08-14 10:08:00 [Information] - Fetching album with ID: 3
+2024-08-14 10:08:00 [Information] - Successfully fetched album with ID: 3
+2024-08-14 10:08:00 [Information] - Fetching album with ID: 3
+2024-08-14 10:08:00 [Information] - Successfully fetched album with ID: 3
+2024-08-14 10:08:00 [Information] - Fetching album with ID: 3
+2024-08-14 10:08:00 [Information] - Successfully fetched album with ID: 3
+2024-08-14 10:08:00 [Information] - Fetching album with ID: 3
+2024-08-14 10:08:00 [Information] - Successfully fetched album with ID: 3
+2024-08-14 10:08:01 [Information] - Fetching album with ID: 3
+2024-08-14 10:08:01 [Information] - Successfully fetched album with ID: 3
+2024-08-14 10:08:01 [Information] - Fetching album with ID: 3
+2024-08-14 10:08:01 [Information] - Successfully fetched album with ID: 3
+2024-08-14 10:08:01 [Information] - Fetching album with ID: 3
+2024-08-14 10:08:01 [Information] - Successfully fetched album with ID: 3
+2024-08-14 10:12:42 [Information] - Fetching all albums (v2)
+2024-08-14 10:12:43 [Information] - Successfully fetched all albums (v2)
+2024-08-14 10:12:45 [Information] - Fetching all albums (v1)
+2024-08-14 10:12:45 [Information] - Successfully fetched all albums (v1)
+2024-08-14 10:16:37 [Information] - Fetching all albums (v2)
+2024-08-14 10:16:38 [Information] - Successfully fetched all albums (v2)
+2024-08-14 10:16:39 [Information] - Fetching all albums (v1)
+2024-08-14 10:17:16 [Information] - Fetching all albums (v1)
+2024-08-14 10:17:17 [Information] - Successfully fetched all albums (v1)
+2024-08-14 10:17:21 [Information] - Fetching all albums (v2)
+2024-08-14 10:17:21 [Information] - Successfully fetched all albums (v2)
+2024-08-14 10:17:23 [Information] - Fetching all albums (v1)
+2024-08-14 10:17:23 [Information] - Successfully fetched all albums (v1)
+2024-08-14 10:40:29 [Information] - Fetching album with ID: 2 (v1)
+2024-08-14 10:40:30 [Information] - Successfully fetched album with ID: 2 (v1)
+2024-08-14 10:40:32 [Information] - Fetching album with ID: 3 (v2)
+2024-08-14 10:40:32 [Information] - Successfully fetched album with ID: 3 (v2)
+2024-08-14 10:40:33 [Information] - Fetching all albums (v2)
+2024-08-14 10:40:33 [Information] - Successfully fetched all albums (v2)
+2024-08-14 10:40:35 [Information] - Fetching all albums (v1)
+2024-08-14 10:40:35 [Information] - Successfully fetched all albums (v1)
+2024-08-14 10:40:37 [Information] - Adding a new album
+2024-08-14 10:40:37 [Information] - Successfully added a new album with ID: 26
+2024-08-14 10:40:37 [Information] - Adding a new album
+2024-08-14 10:40:37 [Information] - Successfully added a new album with ID: 27
+2024-08-14 10:40:38 [Information] - Adding a new album
+2024-08-14 10:40:38 [Information] - Successfully added a new album with ID: 28
+2024-08-14 10:40:38 [Information] - Adding a new album
+2024-08-14 10:40:38 [Information] - Successfully added a new album with ID: 29
+2024-08-14 10:40:39 [Information] - Adding a new album
+2024-08-14 10:40:39 [Information] - Successfully added a new album with ID: 30
+2024-08-14 10:40:42 [Information] - Adding a new album
+2024-08-14 10:40:42 [Information] - Successfully added a new album with ID: 31
+2024-08-14 10:40:52 [Information] - Attempting to delete album with ID: 30
+2024-08-14 10:40:52 [Information] - Successfully deleted album with ID: 30
+2024-08-14 11:28:09 [Information] - Fetching album with ID: 2 (v1)
+2024-08-14 11:28:09 [Information] - Successfully fetched album with ID: 2 (v1)
+2024-08-14 11:28:29 [Information] - Fetching all albums (v1)
+2024-08-14 11:28:29 [Information] - Successfully fetched all albums (v1)
+2024-08-14 11:28:30 [Information] - Fetching all albums (v2)
+2024-08-14 11:28:30 [Information] - Successfully fetched all albums (v2)
+2024-08-14 11:38:13 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:38:14 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:38:27 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:38:27 [Information] - Version: 2.0 - Successfully fetched album with ID: 3
+2024-08-14 11:38:30 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:38:30 [Information] - Version: 2.0 - Successfully fetched album with ID: 3
+2024-08-14 11:38:50 [Information] - Adding a new album
+2024-08-14 11:38:50 [Information] - Successfully added a new album with ID: 32
+2024-08-14 11:38:53 [Information] - Adding a new album
+2024-08-14 11:38:53 [Information] - Successfully added a new album with ID: 33
+2024-08-14 11:38:57 [Information] - Updating album with ID: 25
+2024-08-14 11:38:57 [Warning] - Album with ID: 25 not found
+2024-08-14 11:54:20 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:20 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:21 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:21 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:22 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:22 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:22 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:22 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:23 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:23 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:23 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:23 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:23 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:23 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:23 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:23 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:24 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:24 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:24 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:24 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:24 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:24 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:24 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:24 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:24 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:24 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:25 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:25 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 11:54:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 11:54:47 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:47 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:47 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:47 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:48 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:48 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:48 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:48 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:48 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:48 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:48 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:48 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:49 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:49 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:49 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:49 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:49 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:49 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:49 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:49 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:49 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:49 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:50 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:50 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:50 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:50 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:50 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:50 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:50 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 11:54:50 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 11:54:53 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:53 [Information] - Version: 1.0 - Successfully fetched album with ID: 2
+2024-08-14 11:54:55 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:55 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:55 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:55 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:55 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:56 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:56 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:56 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:56 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:56 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:54:57 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-14 11:55:00 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-14 11:55:00 [Information] - Version: 1.0 - Successfully fetched album with ID: 3
+2024-08-14 11:55:01 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-14 11:55:01 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-14 11:55:01 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-14 11:55:01 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-14 11:55:01 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-14 11:55:02 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-14 11:55:02 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-14 11:55:02 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-14 11:55:02 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-14 11:55:03 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:03 [Information] - Version: 2.0 - Successfully fetched album with ID: 3
+2024-08-14 11:55:03 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:04 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:04 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:04 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:04 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:04 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:05 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:05 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:05 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:06 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:07 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 11:55:07 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-14 14:21:43 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 14:21:43 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 14:21:48 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 14:21:48 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 14:21:52 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 14:21:52 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 14:22:01 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 14:22:01 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 14:22:03 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 14:22:03 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 14:22:25 [Information] - Version: 1.0 - Fetching all albums
+2024-08-14 14:22:26 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-14 14:22:27 [Information] - Version: 2.0 - Fetching all albums
+2024-08-14 14:22:27 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-14 15:26:05 [Information] - Fetching all photos
+2024-08-14 15:26:05 [Information] - Successfully fetched all photos

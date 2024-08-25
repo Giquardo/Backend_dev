@@ -646,3 +646,27 @@ WHERE `Id` = @p8;
 2024-08-25 15:20:06.989 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev)'
 2024-08-25 15:20:06.991 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:3000/api/photos/10 - 200 null application/json; charset=utf-8 108.5848ms
 2024-08-25 17:12:32.935 +02:00 [INF] Application is shutting down...
+2024-08-25 20:18:23.363 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='PhotoAlbumDatabase' AND TABLE_NAME='__EFMigrationsHistory';
+2024-08-25 20:18:23.399 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='PhotoAlbumDatabase' AND TABLE_NAME='__EFMigrationsHistory';
+2024-08-25 20:18:23.417 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2024-08-25 20:18:23.430 +02:00 [INF] Applying migration '20240825181815_UpdateSchema'.
+2024-08-25 20:18:23.475 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Users` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Username` varchar(50) NOT NULL,
+    `Email` varchar(50) NOT NULL,
+    `Password` varchar(50) NOT NULL,
+    `IsAdmin` tinyint(1) NOT NULL,
+    PRIMARY KEY (`Id`)
+);
+2024-08-25 20:18:23.481 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`Id`, `Email`, `IsAdmin`, `Password`, `Username`)
+VALUES (1, 'giquardo@gmail.com', TRUE, '123', 'giquardo');
+2024-08-25 20:18:23.486 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20240825181815_UpdateSchema', '8.0.2');

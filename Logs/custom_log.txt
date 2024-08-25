@@ -663,3 +663,7 @@
 2024-08-25 15:20:06 [Information] - Cache invalidated for photo ID: 10
 2024-08-25 19:27:08 [Information] - Attempting to delete photo with ID: 10
 2024-08-25 19:27:09 [Information] - Successfully deleted photo with ID: 10
+2024-08-25 20:29:50 [Information] - Fetching all photos
+2024-08-25 20:29:50 [Information] - Successfully fetched all photos
+2024-08-25 20:29:58 [Information] - Fetching all photos
+2024-08-25 20:29:58 [Information] - Successfully fetched all photos

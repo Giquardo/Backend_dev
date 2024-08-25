@@ -140,3 +140,11 @@ C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

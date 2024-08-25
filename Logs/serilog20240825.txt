@@ -1,0 +1,272 @@
+2024-08-25 09:08:27.933 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-25 09:08:27.957 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-25 09:08:27.959 +02:00 [INF] Hosting environment: Development
+2024-08-25 09:08:27.960 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-25 09:08:31.967 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/ - null null
+2024-08-25 09:08:31.996 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-08-25 09:08:32.003 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-08-25 09:08:32.006 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/ - 200 null text/plain; charset=utf-8 39.5103ms
+2024-08-25 09:08:32.114 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/favicon.ico - null null
+2024-08-25 09:08:32.118 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/favicon.ico - 404 0 null 4.1579ms
+2024-08-25 09:08:32.121 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:3000/favicon.ico, Response status code: 404
+2024-08-25 09:08:36.343 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger - null null
+2024-08-25 09:08:36.347 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger - 301 0 null 3.9281ms
+2024-08-25 09:08:36.353 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.html - null null
+2024-08-25 09:08:36.408 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.html - 200 null text/html;charset=utf-8 54.8577ms
+2024-08-25 09:08:36.428 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/swagger-ui.css - null null
+2024-08-25 09:08:36.430 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.css - null null
+2024-08-25 09:08:36.430 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/swagger-ui-bundle.js - null null
+2024-08-25 09:08:36.431 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-25 09:08:36.431 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.js - null null
+2024-08-25 09:08:36.436 +02:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2024-08-25 09:08:36.439 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-25 09:08:36.443 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.js - 200 null application/javascript;charset=utf-8 12.0097ms
+2024-08-25 09:08:36.445 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.css - 200 202 text/css 15.0877ms
+2024-08-25 09:08:36.447 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/swagger-ui.css - 200 152034 text/css 18.7708ms
+2024-08-25 09:08:36.448 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-25 09:08:36.448 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-25 09:08:36.457 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 26.1717ms
+2024-08-25 09:08:36.458 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 26.8746ms
+2024-08-25 09:08:36.614 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - null null
+2024-08-25 09:08:36.618 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/favicon-32x32.png - null null
+2024-08-25 09:08:36.621 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-08-25 09:08:36.623 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/favicon-32x32.png - 200 628 image/png 4.5073ms
+2024-08-25 09:08:36.680 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 66.3776ms
+2024-08-25 09:08:52.905 +02:00 [INF] Application is shutting down...
+2024-08-25 09:32:27.240 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-25 09:32:27.263 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-25 09:32:27.266 +02:00 [INF] Hosting environment: Development
+2024-08-25 09:32:27.268 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-25 09:32:28.872 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/ - null null
+2024-08-25 09:32:28.895 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-08-25 09:32:28.898 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-08-25 09:32:28.901 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/ - 200 null text/plain; charset=utf-8 29.3476ms
+2024-08-25 09:32:33.322 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.html - null null
+2024-08-25 09:32:33.371 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.html - 200 null text/html;charset=utf-8 49.1613ms
+2024-08-25 09:32:33.396 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.js - null null
+2024-08-25 09:32:33.401 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.js - 200 null application/javascript;charset=utf-8 4.6231ms
+2024-08-25 09:32:33.583 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - null null
+2024-08-25 09:32:33.657 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.8845ms
+2024-08-25 09:32:39.200 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/v1/albums - null null
+2024-08-25 09:32:39.208 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-25 09:32:39.218 +02:00 [INF] Route matched with {action = "GetAlbumsV1", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAlbumsV1() on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-25 09:32:39.368 +02:00 [INF] Version: 1.0 - Fetching all albums
+2024-08-25 09:32:41.968 +02:00 [ERR] An error occurred using the connection to database 'PhotoAlbumDatabase' on server 'localhost'.
+2024-08-25 09:32:41.976 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'PhotoAlbumApi.Data.PhotoAlbumContext'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-08-25 09:32:41.995 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev) in 2772.3146ms
+2024-08-25 09:32:41.997 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-25 09:32:42.001 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(Task task)
+   at MySql.Data.Common.StreamCreator.GetTcpStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.Common.StreamCreator.GetStreamAsync(MySqlConnectionStringBuilder settings, CancellationToken cancellationToken, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at PhotoAlbumApi.Repositories.AlbumRepository.GetAlbumsAsync() in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\AlbumRepository.cs:line 29
+   at PhotoAlbumApi.Services.PhotoAlbumService.GetAlbumsAsync() in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 36
+   at PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1() in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\AlbumController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-25 09:32:42.028 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/v1/albums - 500 null text/plain; charset=utf-8 2827.5965ms
+2024-08-25 09:34:03.589 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/v1/albums - null null
+2024-08-25 09:34:03.595 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-25 09:34:03.598 +02:00 [INF] Route matched with {action = "GetAlbumsV1", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAlbumsV1() on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-25 09:34:03.602 +02:00 [INF] Version: 1.0 - Fetching all albums
+2024-08-25 09:34:03.763 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Description`, `a`.`Title`, `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Albums` AS `a`
+LEFT JOIN `Photos` AS `p` ON `a`.`Id` = `p`.`AlbumId`
+ORDER BY `a`.`Id`
+2024-08-25 09:34:03.817 +02:00 [INF] Version: 1.0 - Successfully fetched all albums
+2024-08-25 09:34:03.822 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.AlbumSummaryDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-25 09:34:03.840 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev) in 239.8593ms
+2024-08-25 09:34:03.842 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-25 09:34:03.844 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/v1/albums - 200 null application/json; charset=utf-8 255.2907ms
+2024-08-25 09:34:11.302 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/v2/albums - null null
+2024-08-25 09:34:11.307 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV2 (Backend_dev)'
+2024-08-25 09:34:11.313 +02:00 [INF] Route matched with {action = "GetAlbumsV2", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAlbumsV2() on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-25 09:34:11.318 +02:00 [INF] Version: 2.0 - Fetching all albums
+2024-08-25 09:34:11.357 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Description`, `a`.`Title`, `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Albums` AS `a`
+LEFT JOIN `Photos` AS `p` ON `a`.`Id` = `p`.`AlbumId`
+ORDER BY `a`.`Id`
+2024-08-25 09:34:11.365 +02:00 [INF] Version: 2.0 - Successfully fetched all albums
+2024-08-25 09:34:11.366 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.AlbumDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-25 09:34:11.371 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV2 (Backend_dev) in 55.1675ms
+2024-08-25 09:34:11.372 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV2 (Backend_dev)'
+2024-08-25 09:34:11.373 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/v2/albums - 200 null application/json; charset=utf-8 71.4724ms
+2024-08-25 09:34:17.841 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/v3/albums - null null
+2024-08-25 09:34:17.848 +02:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '3'. Candidate actions: PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)
+PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV2 (Backend_dev)
+2024-08-25 09:34:17.851 +02:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-08-25 09:34:17.854 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2024-08-25 09:34:17.860 +02:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-08-25 09:34:17.862 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/v3/albums - 400 null application/json; charset=utf-8 21.0435ms
+2024-08-25 09:35:01.830 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:3000/api/v2/albums/4 - application/json 61
+2024-08-25 09:35:01.835 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.UpdateAlbum (Backend_dev)'
+2024-08-25 09:35:01.841 +02:00 [INF] Route matched with {action = "UpdateAlbum", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAlbum(Int32, PhotoAlbumApi.DTOs.AlbumDto) on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-25 09:35:01.881 +02:00 [INF] Updating album with ID: 4
+2024-08-25 09:35:01.906 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Description`, `t`.`Title`, `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM (
+    SELECT `a`.`Id`, `a`.`Description`, `a`.`Title`
+    FROM `Albums` AS `a`
+    WHERE `a`.`Id` = @__id_0
+    LIMIT 1
+) AS `t`
+LEFT JOIN `Photos` AS `p` ON `t`.`Id` = `p`.`AlbumId`
+ORDER BY `t`.`Id`
+2024-08-25 09:35:01.958 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 500), @p1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Albums` SET `Description` = @p0, `Title` = @p1
+WHERE `Id` = @p2;
+2024-08-25 09:35:01.969 +02:00 [INF] Successfully updated album with ID: 4
+2024-08-25 09:35:01.972 +02:00 [INF] Executing OkObjectResult, writing value of type 'PhotoAlbumApi.DTOs.AlbumDto'.
+2024-08-25 09:35:01.974 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.UpdateAlbum (Backend_dev) in 130.7798ms
+2024-08-25 09:35:01.976 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.UpdateAlbum (Backend_dev)'
+2024-08-25 09:35:01.977 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:3000/api/v2/albums/4 - 200 null application/json; charset=utf-8 147.2602ms
+2024-08-25 09:35:17.798 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/ - null null
+2024-08-25 09:35:17.804 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-08-25 09:35:17.805 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-08-25 09:35:17.807 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/ - 200 null text/plain; charset=utf-8 8.5764ms
+2024-08-25 09:49:39.949 +02:00 [INF] Application is shutting down...
+2024-08-25 10:14:56.621 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-25 10:14:56.646 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-25 10:14:56.648 +02:00 [INF] Hosting environment: Development
+2024-08-25 10:14:56.650 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-25 10:14:58.492 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/ - null null
+2024-08-25 10:14:58.513 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-08-25 10:14:58.518 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-08-25 10:14:58.520 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/ - 200 null text/plain; charset=utf-8 28.8049ms
+2024-08-25 10:15:01.278 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.html - null null
+2024-08-25 10:15:01.328 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.html - 200 null text/html;charset=utf-8 49.5121ms
+2024-08-25 10:15:01.345 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.js - null null
+2024-08-25 10:15:01.350 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.js - 200 null application/javascript;charset=utf-8 5.0389ms
+2024-08-25 10:15:01.413 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - null null
+2024-08-25 10:15:01.483 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.0875ms
+2024-08-25 10:15:05.204 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-25 10:15:05.213 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-25 10:15:05.225 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-25 10:15:05.331 +02:00 [INF] Fetching all photos
+2024-08-25 10:15:05.906 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-25 10:15:05.952 +02:00 [INF] Successfully fetched all photos
+2024-08-25 10:15:05.958 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.PhotoDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-25 10:15:05.982 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 753.4007ms
+2024-08-25 10:15:05.985 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-25 10:15:05.990 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 785.8363ms
+2024-08-25 10:18:55.156 +02:00 [INF] Application is shutting down...
+2024-08-25 10:18:58.714 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-25 10:18:58.739 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-25 10:18:58.742 +02:00 [INF] Hosting environment: Development
+2024-08-25 10:18:58.743 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-25 10:19:03.054 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.html - null null
+2024-08-25 10:19:03.122 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.html - 200 null text/html;charset=utf-8 68.9133ms
+2024-08-25 10:19:03.149 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.js - null null
+2024-08-25 10:19:03.155 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.js - 200 null application/javascript;charset=utf-8 6.1455ms
+2024-08-25 10:19:03.224 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - null null
+2024-08-25 10:19:03.290 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 66.3222ms
+2024-08-25 10:19:05.978 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-25 10:19:05.987 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-25 10:19:05.999 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[PhotoAlbumApi.Models.Photo]]] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-25 10:19:06.114 +02:00 [INF] Fetching all photos
+2024-08-25 10:19:06.692 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`Title`, `p`.`Url`
+FROM `Photos` AS `p`
+2024-08-25 10:19:06.738 +02:00 [INF] Successfully fetched all photos
+2024-08-25 10:19:06.743 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.PhotoDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-25 10:19:06.768 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 764.6373ms
+2024-08-25 10:19:06.772 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-25 10:19:06.777 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 799.3012ms
+2024-08-25 11:52:04.038 +02:00 [INF] Application is shutting down...

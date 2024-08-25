@@ -474,3 +474,14 @@
 2024-08-14 14:22:27 [Information] - Version: 2.0 - Successfully fetched all albums
 2024-08-14 15:26:05 [Information] - Fetching all photos
 2024-08-14 15:26:05 [Information] - Successfully fetched all photos
+2024-08-25 09:32:39 [Information] - Version: 1.0 - Fetching all albums
+2024-08-25 09:34:03 [Information] - Version: 1.0 - Fetching all albums
+2024-08-25 09:34:03 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-25 09:34:11 [Information] - Version: 2.0 - Fetching all albums
+2024-08-25 09:34:11 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-25 09:35:01 [Information] - Updating album with ID: 4
+2024-08-25 09:35:01 [Information] - Successfully updated album with ID: 4
+2024-08-25 10:15:05 [Information] - Fetching all photos
+2024-08-25 10:15:05 [Information] - Successfully fetched all photos
+2024-08-25 10:19:06 [Information] - Fetching all photos
+2024-08-25 10:19:06 [Information] - Successfully fetched all photos

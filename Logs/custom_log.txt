@@ -495,3 +495,171 @@
 2024-08-25 13:12:36 [Information] - Successfully fetched all photos
 2024-08-25 13:12:36 [Information] - Fetching all photos
 2024-08-25 13:12:36 [Information] - Successfully fetched all photos
+2024-08-25 13:19:22 [Information] - Fetching photo with ID: 2
+2024-08-25 13:19:22 [Information] - Successfully fetched photo with ID: 2
+2024-08-25 13:19:49 [Information] - Fetching photo with ID: 2
+2024-08-25 13:19:51 [Information] - Fetching photo with ID: 3
+2024-08-25 13:19:51 [Information] - Successfully fetched photo with ID: 3
+2024-08-25 13:19:52 [Information] - Fetching photo with ID: 3
+2024-08-25 13:19:54 [Information] - Fetching photo with ID: 8
+2024-08-25 13:19:54 [Information] - Successfully fetched photo with ID: 8
+2024-08-25 13:19:56 [Information] - Fetching photo with ID: 8
+2024-08-25 13:19:58 [Information] - Fetching photo with ID: 9
+2024-08-25 13:19:58 [Information] - Successfully fetched photo with ID: 9
+2024-08-25 13:20:01 [Information] - Fetching photo with ID: 10
+2024-08-25 13:20:01 [Warning] - Photo with ID: 10 not found
+2024-08-25 13:22:35 [Information] - Fetching photo with ID: 6
+2024-08-25 13:22:35 [Information] - Successfully fetched photo with ID: 6
+2024-08-25 13:22:39 [Information] - Fetching all photos
+2024-08-25 13:22:39 [Information] - Fetching all photos
+2024-08-25 13:22:39 [Information] - Successfully fetched all photos
+2024-08-25 13:22:39 [Information] - Successfully fetched all photos
+2024-08-25 13:22:40 [Information] - Fetching all photos
+2024-08-25 13:22:40 [Information] - Successfully fetched all photos
+2024-08-25 13:22:43 [Information] - Fetching photo with ID: 6
+2024-08-25 13:22:44 [Information] - Fetching photo with ID: 6
+2024-08-25 13:22:55 [Information] - Adding a new photo
+2024-08-25 13:22:56 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 58
+   at PhotoAlbumApi.Services.PhotoAlbumService.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 71
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(PhotoDto photoDto) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 84
+2024-08-25 13:22:58 [Information] - Adding a new photo
+2024-08-25 13:22:58 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 58
+   at PhotoAlbumApi.Services.PhotoAlbumService.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 71
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(PhotoDto photoDto) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 84
+2024-08-25 13:23:00 [Information] - Adding a new photo
+2024-08-25 13:23:00 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 58
+   at PhotoAlbumApi.Services.PhotoAlbumService.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 71
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(PhotoDto photoDto) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 84
+2024-08-25 13:23:01 [Information] - Adding a new photo
+2024-08-25 13:23:01 [Error] - Error adding photo: System.InvalidOperationException: A photo with the same hash already exists.
+   at PhotoAlbumApi.Repositories.PhotoRepository.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 58
+   at PhotoAlbumApi.Services.PhotoAlbumService.AddPhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 71
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(PhotoDto photoDto) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 84
+2024-08-25 13:23:47 [Information] - Adding a new photo
+2024-08-25 13:23:47 [Information] - Successfully added a new photo with ID: 10
+2024-08-25 14:07:16 [Information] - Updating photo with ID: 10
+2024-08-25 14:07:16 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:13:38 [Information] - Updating photo with ID: 10
+2024-08-25 14:13:38 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:14:17 [Information] - Updating photo with ID: 10
+2024-08-25 14:14:17 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:24:13 [Information] - Updating photo with ID: 10
+2024-08-25 14:24:13 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:31:49 [Information] - Updating photo with ID: 10
+2024-08-25 14:31:50 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:38:29 [Information] - Updating photo with ID: 10
+2024-08-25 14:38:30 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:39:12 [Information] - Updating photo with ID: 10
+2024-08-25 14:39:12 [Information] - DATABASE: Downloading the new image file.
+2024-08-25 14:39:12 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:41:37 [Information] - Updating photo with ID: 10
+2024-08-25 14:41:38 [Information] - Comparing URLs: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg vs https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:41:38 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:42:16 [Information] - Updating photo with ID: 10
+2024-08-25 14:42:16 [Information] - Comparing URLs: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg vs https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:42:16 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:42:34 [Information] - Updating photo with ID: 10
+2024-08-25 14:42:34 [Information] - Comparing URLs: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg vs https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:42:34 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:44:52 [Information] - Updating photo with ID: 10
+2024-08-25 14:44:53 [Information] - Comparing URLs: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg vs https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:44:53 [Information] - Comparing URLs: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg vs https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:44:53 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:46:25 [Information] - Updating photo with ID: 10
+2024-08-25 14:46:26 [Information] - Comparing URLs: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg vs https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:46:26 [Information] - Comparing URLs: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg vs https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:46:26 [Information] - DATABASAE: Comparing URLs: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg vs https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:46:26 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:48:30 [Information] - Updating photo with ID: 10
+2024-08-25 14:48:30 [Information] - DATABASE: Updating photo with ID: 10and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:48:30 [Information] - DATABASE: Found photo with ID: 10and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:48:30 [Information] - DATABASAE: Comparing URLs: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg vs https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:48:30 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:52:11 [Information] - Updating photo with ID: 10
+2024-08-25 14:52:12 [Information] - DATABASE: Existing photo URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/what-is-ai-1.jpg
+2024-08-25 14:52:12 [Information] - DATABASE: New photo URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/what-is-ai-1.jpg
+2024-08-25 14:52:12 [Information] - DATABASE: Successfully updated photo with ID: 10 and new URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:52:12 [Information] - Successfully updated photo with ID: 10
+2024-08-25 14:54:27 [Information] - Updating photo with ID: 10
+2024-08-25 14:54:27 [Information] - DATABASE: Updating photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:54:27 [Information] - DATABASE: Starting update for photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:54:27 [Information] - DATABASE: Found existing photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:54:27 [Information] - DATABASE: Normalized existing photo URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/what-is-ai-1.jpg
+2024-08-25 14:54:27 [Information] - DATABASE: Normalized new photo URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/what-is-ai-1.jpg
+2024-08-25 14:54:27 [Information] - DATABASE: URLs are the same. No need to download a new image file.
+2024-08-25 14:54:27 [Information] - DATABASE: Successfully updated photo with ID: 10 and new URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:54:27 [Information] - DATABASE: Successfully updated photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:54:45 [Information] - Updating photo with ID: 10
+2024-08-25 14:54:45 [Information] - DATABASE: Updating photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:54:45 [Information] - DATABASE: Starting update for photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:54:45 [Information] - DATABASE: Found existing photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:54:45 [Information] - DATABASE: Normalized existing photo URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:54:45 [Information] - DATABASE: Normalized new photo URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:54:45 [Information] - DATABASE: URLs are the same. No need to download a new image file.
+2024-08-25 14:54:45 [Information] - DATABASE: Successfully updated photo with ID: 10 and new URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:54:45 [Information] - DATABASE: Successfully updated photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:55:51 [Information] - Updating photo with ID: 10
+2024-08-25 14:55:51 [Information] - DATABASE: Updating photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:55:51 [Information] - DATABASE: Starting update for photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:55:51 [Information] - DATABASE: Found existing photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:55:51 [Information] - DATABASE: Normalized existing photo URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/what-is-ai-1.jpg
+2024-08-25 14:55:51 [Information] - DATABASE: Normalized new photo URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/what-is-ai-1.jpg
+2024-08-25 14:55:51 [Information] - DATABASE: URLs are the same. No need to download a new image file.
+2024-08-25 14:55:51 [Information] - DATABASE: Successfully updated photo with ID: 10 and new URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:55:51 [Information] - DATABASE: Successfully updated photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 14:59:40 [Information] - Updating photo with ID: 10
+2024-08-25 14:59:40 [Information] - DATABASE: Updating photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 14:59:40 [Information] - DATABASE: Successfully updated photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:03:12 [Information] - Updating photo with ID: 10
+2024-08-25 15:03:12 [Information] - DATABASE: Starting update for photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:03:12 [Information] - DATABASE: Found existing photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:03:12 [Information] - DATABASE: URLs are the same. No need to download a new image file.
+2024-08-25 15:14:17 [Information] - Updating photo with ID: 10
+2024-08-25 15:14:17 [Information] - Current URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg, Incoming URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 15:14:17 [Information] - DATABASE: Starting update for photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 15:14:17 [Information] - DATABASE: Found existing photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 15:14:17 [Information] - DATABASE: URLs are the same. No need to download a new image file.
+2024-08-25 15:14:17 [Information] - DATABASE: Successfully updated photo with ID: 10
+2024-08-25 15:14:17 [Information] - Cache invalidated for photo ID: 10
+2024-08-25 15:15:53 [Information] - Updating photo with ID: 10
+2024-08-25 15:15:54 [Information] - Current URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg, Incoming URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:15:54 [Information] - DATABASE: Starting update for photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:15:54 [Information] - DATABASE: Found existing photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:15:54 [Information] - DATABASE: URLs are the same. No need to download a new image file.
+2024-08-25 15:15:54 [Information] - DATABASE: Successfully updated photo with ID: 10
+2024-08-25 15:15:54 [Information] - Cache invalidated for photo ID: 10
+2024-08-25 15:17:18 [Information] - Updating photo with ID: 10
+2024-08-25 15:17:19 [Information] - Current URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg, Incoming URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 15:17:19 [Information] - DATABASE: Starting update for photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 15:17:19 [Information] - DATABASE: Found existing photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:17:19 [Information] - DATABASE: Original URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg, Incoming URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 15:17:19 [Information] - DATABASE: URLs are different. Downloading the new image file.
+2024-08-25 15:17:19 [Information] - DATABASE: Downloaded new image file at: Data\Files\What-is-AI-1.jpg with hash: fd5a8cda6f297d61eadf67dcf24241c61122ad1941e3053145616b9835718cb0
+2024-08-25 15:17:19 [Information] - DATABASE: Deleted old image file at: Data\Files\What-is-AI-1.jpg
+2024-08-25 15:17:19 [Error] - DATABASE: Error occurred while saving the updated photo: The instance of entity type 'Photo' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+2024-08-25 15:17:19 [Error] - Failed to update photo with ID: 10
+2024-08-25 15:19:25 [Information] - Updating photo with ID: 10
+2024-08-25 15:19:25 [Information] - Current URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg, Incoming URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 15:19:26 [Information] - DATABASE: Starting update for photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 15:19:26 [Information] - DATABASE: Found existing photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:19:26 [Information] - DATABASE: Original URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg, Incoming URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 15:19:26 [Information] - DATABASE: URLs are different. Downloading the new image file.
+2024-08-25 15:19:26 [Information] - DATABASE: Downloaded new image file at: Data\Files\What-is-AI-1.jpg with hash: fd5a8cda6f297d61eadf67dcf24241c61122ad1941e3053145616b9835718cb0
+2024-08-25 15:19:26 [Information] - DATABASE: Deleted old image file at: Data\Files\What-is-AI-1.jpg
+2024-08-25 15:19:26 [Information] - DATABASE: Successfully updated photo with ID: 10
+2024-08-25 15:19:26 [Information] - Cache invalidated for photo ID: 10
+2024-08-25 15:20:06 [Information] - Updating photo with ID: 10
+2024-08-25 15:20:06 [Information] - Current URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg, Incoming URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:20:06 [Information] - DATABASE: Starting update for photo with ID: 10 and URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:20:06 [Information] - DATABASE: Found existing photo with ID: 10 and URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-25 15:20:06 [Information] - DATABASE: Original URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg, Incoming URL: https://i.pinimg.com/736x/3f/68/48/3f6848fde91b1a9110b5cc36fe6b4d09.jpg
+2024-08-25 15:20:06 [Information] - DATABASE: URLs are different. Downloading the new image file.
+2024-08-25 15:20:06 [Information] - DATABASE: Downloaded new image file at: Data\Files\3f6848fde91b1a9110b5cc36fe6b4d09.jpg with hash: be75ac104bf64cc03d749da04cc730fb31c28e39d31601b5349fcad0d35f81cd
+2024-08-25 15:20:06 [Information] - DATABASE: Deleted old image file at: Data\Files\What-is-AI-1.jpg
+2024-08-25 15:20:06 [Information] - DATABASE: Successfully updated photo with ID: 10
+2024-08-25 15:20:06 [Information] - Cache invalidated for photo ID: 10
+2024-08-25 19:27:08 [Information] - Attempting to delete photo with ID: 10
+2024-08-25 19:27:09 [Information] - Successfully deleted photo with ID: 10

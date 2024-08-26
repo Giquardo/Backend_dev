@@ -672,3 +672,116 @@
 2024-08-26 10:51:28 [Information] - Fetching user with ID: 1
 2024-08-26 10:51:28 [Information] - Successfully fetched user with ID: 1
 2024-08-26 10:52:46 [Information] - Creating user: Alessia
+2024-08-26 17:30:34 [Information] - Version: 1.0 - Fetching all albums
+2024-08-26 17:30:35 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-26 17:31:00 [Information] - Logging in user: alessia
+2024-08-26 17:31:00 [Information] - Successfully logged in user: alessia
+2024-08-26 17:31:33 [Information] - Logging in user: giquardo
+2024-08-26 17:31:33 [Information] - Successfully logged in user: giquardo
+2024-08-26 17:31:50 [Information] - Fetching all users
+2024-08-26 17:34:01 [Information] - Logging in user: giquardo
+2024-08-26 17:34:02 [Information] - Successfully logged in user: giquardo
+2024-08-26 17:34:18 [Information] - Fetching all users
+2024-08-26 17:37:08 [Information] - Logging in user: giquardo
+2024-08-26 17:37:09 [Information] - Successfully logged in user: giquardo
+2024-08-26 17:37:23 [Information] - Fetching all users
+2024-08-26 17:40:32 [Information] - Logging in user: giquardo
+2024-08-26 17:40:33 [Information] - Successfully logged in user: giquardo
+2024-08-26 17:40:56 [Information] - Fetching all users
+2024-08-26 18:45:22 [Information] - Version: 1.0 - Fetching all albums
+2024-08-26 18:45:22 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-26 18:45:26 [Information] - Version: 2.0 - Fetching all albums
+2024-08-26 18:45:26 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-26 18:45:28 [Information] - Version: 2.0 - Fetching all albums
+2024-08-26 18:45:28 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-26 18:48:24 [Information] - Version: 1.0 - Fetching all albums
+2024-08-26 18:48:24 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-26 18:48:26 [Information] - Version: 2.0 - Fetching all albums
+2024-08-26 18:48:26 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-26 18:48:27 [Information] - Version: 1.0 - Fetching album with ID: 3
+2024-08-26 18:48:27 [Information] - Version: 1.0 - Successfully fetched album with ID: 3
+2024-08-26 18:48:28 [Information] - Version: 2.0 - Fetching album with ID: 3
+2024-08-26 18:48:28 [Information] - Version: 2.0 - Successfully fetched album with ID: 3
+2024-08-26 18:49:20 [Information] - Adding a new album
+2024-08-26 18:59:12 [Information] - Version: 2.0 - Fetching all albums
+2024-08-26 18:59:12 [Information] - Version: 2.0 - Successfully fetched all albums
+2024-08-26 18:59:58 [Information] - Adding a new album
+2024-08-26 18:59:58 [Information] - Successfully added a new album with ID: 7
+2024-08-26 19:00:32 [Information] - Adding a new album
+2024-08-26 19:00:32 [Information] - Successfully added a new album with ID: 8
+2024-08-26 19:00:33 [Information] - Adding a new album
+2024-08-26 19:00:33 [Information] - Successfully added a new album with ID: 9
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 10
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 11
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 12
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 13
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 14
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 15
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 16
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 17
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 18
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 19
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 20
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 21
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 22
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 23
+2024-08-26 19:00:58 [Information] - Adding a new album
+2024-08-26 19:00:58 [Information] - Successfully added a new album with ID: 24
+2024-08-26 19:00:59 [Information] - Adding a new album
+2024-08-26 19:00:59 [Information] - Successfully added a new album with ID: 25
+2024-08-26 19:00:59 [Information] - Adding a new album
+2024-08-26 19:00:59 [Information] - Successfully added a new album with ID: 26
+2024-08-26 19:00:59 [Information] - Adding a new album
+2024-08-26 19:00:59 [Information] - Successfully added a new album with ID: 27
+2024-08-26 19:00:59 [Information] - Adding a new album
+2024-08-26 19:00:59 [Information] - Successfully added a new album with ID: 28
+2024-08-26 19:00:59 [Information] - Adding a new album
+2024-08-26 19:00:59 [Information] - Successfully added a new album with ID: 29
+2024-08-26 19:00:59 [Information] - Adding a new album
+2024-08-26 19:00:59 [Information] - Successfully added a new album with ID: 30
+2024-08-26 19:00:59 [Information] - Adding a new album
+2024-08-26 19:00:59 [Information] - Successfully added a new album with ID: 31
+2024-08-26 19:04:45 [Information] - Version: 1.0 - Fetching album with ID: 2
+2024-08-26 19:04:45 [Information] - Version: 1.0 - Successfully fetched album with ID: 2
+2024-08-26 19:13:22 [Information] - Version: 1.0 - Fetching all albums
+2024-08-26 19:13:22 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-26 19:14:05 [Information] - Adding a new album
+2024-08-26 19:14:05 [Information] - Successfully added a new album with ID: 32
+2024-08-26 19:16:21 [Information] - Version: 1.0 - Fetching all albums
+2024-08-26 19:16:22 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-26 19:16:41 [Information] - Version: 1.0 - Fetching album with ID: 32
+2024-08-26 19:16:41 [Information] - Version: 1.0 - Successfully fetched album with ID: 32
+2024-08-26 19:17:06 [Information] - Updating album with ID: 32
+2024-08-26 19:17:06 [Information] - Successfully updated album with ID: 32
+2024-08-26 19:24:30 [Information] - Updating album with ID: 32
+2024-08-26 19:24:31 [Information] - Successfully updated album with ID: 32
+2024-08-26 19:24:45 [Information] - Updating album with ID: 32
+2024-08-26 19:24:45 [Information] - Successfully updated album with ID: 32
+2024-08-26 19:29:44 [Information] - Updating album with ID: 32
+2024-08-26 19:29:44 [Information] - Successfully updated album with ID: 32
+2024-08-26 19:29:56 [Information] - Attempting to delete album with ID: 32
+2024-08-26 19:29:56 [Information] - Successfully soft deleted album with ID: 32
+2024-08-26 19:30:23 [Information] - Version: 1.0 - Fetching all albums
+2024-08-26 19:30:23 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-26 19:30:29 [Information] - Version: 1.0 - Fetching album with ID: 32
+2024-08-26 19:30:29 [Warning] - Version: 1.0 - Album with ID: 32 not found
+2024-08-26 19:30:32 [Information] - Version: 1.0 - Fetching album with ID: 31
+2024-08-26 19:30:32 [Information] - Version: 1.0 - Successfully fetched album with ID: 31
+2024-08-26 19:35:03 [Information] - Attempting to undo delete for album with ID: 32
+2024-08-26 19:35:03 [Information] - Successfully restored album with ID: 32
+2024-08-26 19:35:10 [Information] - Version: 1.0 - Fetching all albums
+2024-08-26 19:35:10 [Information] - Version: 1.0 - Successfully fetched all albums

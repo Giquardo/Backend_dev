@@ -785,3 +785,72 @@
 2024-08-26 19:35:03 [Information] - Successfully restored album with ID: 32
 2024-08-26 19:35:10 [Information] - Version: 1.0 - Fetching all albums
 2024-08-26 19:35:10 [Information] - Version: 1.0 - Successfully fetched all albums
+2024-08-26 20:04:12 [Information] - Logging in user: giquardo
+2024-08-26 20:04:12 [Information] - Successfully logged in user: giquardo
+2024-08-26 20:04:46 [Error] - Invalid user ID. User is not signed in or using an invalid ID.
+2024-08-26 20:06:32 [Error] - Failed to parse user ID: giquardo
+2024-08-26 20:06:32 [Error] - Invalid user ID. User is not signed in or using an invalid ID.
+2024-08-26 20:06:38 [Error] - Failed to parse user ID: giquardo
+2024-08-26 20:06:38 [Error] - Invalid user ID. User is not signed in or using an invalid ID.
+2024-08-26 20:06:42 [Information] - Logging in user: giquardo
+2024-08-26 20:06:43 [Information] - Successfully logged in user: giquardo
+2024-08-26 20:06:56 [Error] - Failed to parse user ID: giquardo
+2024-08-26 20:06:56 [Error] - Invalid user ID. User is not signed in or using an invalid ID.
+2024-08-26 20:06:57 [Error] - Failed to parse user ID: giquardo
+2024-08-26 20:06:57 [Error] - Invalid user ID. User is not signed in or using an invalid ID.
+2024-08-26 20:09:30 [Information] - Logging in user: giquardo
+2024-08-26 20:09:31 [Information] - Successfully logged in user: giquardo
+2024-08-26 20:09:45 [Error] - Failed to parse user ID: giquardo
+2024-08-26 20:09:45 [Error] - Invalid user ID. User is not signed in or using an invalid ID.
+2024-08-26 20:20:28 [Information] - Logging in user: giquardo
+2024-08-26 20:20:29 [Information] - Successfully logged in user: giquardo
+2024-08-26 20:20:56 [Information] - Version: 1.0 - Fetching all albums for user 1
+2024-08-26 20:20:56 [Information] - Version: 1.0 - Successfully fetched all albums for user 1
+2024-08-26 20:21:27 [Information] - Logging in user: alessia
+2024-08-26 20:21:27 [Information] - Successfully logged in user: alessia
+2024-08-26 20:23:24 [Information] - Adding a new album for user 2
+2024-08-26 20:23:24 [Information] - Successfully added a new album with ID: 33 for user 2
+2024-08-26 20:23:37 [Information] - Version: 1.0 - Fetching all albums for user 2
+2024-08-26 20:23:37 [Information] - Version: 1.0 - Successfully fetched all albums for user 2
+2024-08-26 20:23:51 [Information] - Version: 1.0 - Fetching album with ID: 1 for user 2
+2024-08-26 20:23:51 [Warning] - Version: 1.0 - Album with ID: 1 not found for user 2
+2024-08-26 20:23:57 [Information] - Version: 1.0 - Fetching album with ID: 2 for user 2
+2024-08-26 20:23:57 [Warning] - Version: 1.0 - Album with ID: 2 not found for user 2
+2024-08-26 20:23:59 [Information] - Version: 1.0 - Fetching album with ID: 33 for user 2
+2024-08-26 20:23:59 [Information] - Version: 1.0 - Successfully fetched album with ID: 33 for user 2
+2024-08-26 20:24:11 [Information] - Attempting to delete album with ID: 33 for user 2
+2024-08-26 20:24:11 [Information] - Successfully soft deleted album with ID: 33 for user 2
+2024-08-26 20:24:22 [Information] - Attempting to undo delete for album with ID: 33 for user 2
+2024-08-26 20:24:22 [Information] - Successfully restored album with ID: 33 for user 2
+2024-08-26 20:24:25 [Information] - Version: 1.0 - Fetching all albums for user 2
+2024-08-26 20:24:25 [Information] - Version: 1.0 - Successfully fetched all albums for user 2
+2024-08-26 20:25:22 [Information] - Updating album with ID: 33 for user 2
+2024-08-26 20:25:22 [Information] - Successfully updated album with ID: 33 for user 2
+2024-08-26 20:39:56 [Information] - Logging in user: giquardo
+2024-08-26 20:39:57 [Information] - Successfully logged in user: giquardo
+2024-08-26 20:40:25 [Information] - Version: 1.0 - Fetching all albums for user 1
+2024-08-26 20:40:25 [Information] - Version: 1.0 - Successfully fetched all albums for user 1
+2024-08-26 20:40:37 [Information] - Adding a new album for user 1
+2024-08-26 20:40:37 [Information] - Successfully added a new album with ID: 34 for user 1
+2024-08-26 20:42:10 [Information] - Logging in user: alessia
+2024-08-26 20:42:11 [Information] - Successfully logged in user: alessia
+2024-08-26 20:42:26 [Information] - Version: 1.0 - Fetching all albums for user 2
+2024-08-26 20:42:26 [Information] - Version: 1.0 - Successfully fetched all albums for user 2
+2024-08-26 20:42:32 [Information] - Adding a new album for user 2
+2024-08-26 20:42:32 [Information] - Successfully added a new album with ID: 35 for user 2
+2024-08-26 20:42:50 [Information] - Updating album with ID: 35 for user 2
+2024-08-26 20:42:50 [Information] - Successfully updated album with ID: 35 for user 2
+2024-08-26 20:42:54 [Information] - Version: 1.0 - Fetching all albums for user 2
+2024-08-26 20:42:54 [Information] - Version: 1.0 - Successfully fetched all albums for user 2
+2024-08-26 20:42:58 [Information] - Version: 1.0 - Fetching all albums for user 2
+2024-08-26 20:42:58 [Information] - Version: 1.0 - Successfully fetched all albums for user 2
+2024-08-26 20:43:13 [Information] - Version: 1.0 - Fetching all albums for user 2
+2024-08-26 20:43:13 [Information] - Version: 1.0 - Successfully fetched all albums for user 2
+2024-08-26 20:44:10 [Information] - Version: 1.0 - Fetching all albums for user 2
+2024-08-26 20:44:11 [Information] - Version: 1.0 - Successfully fetched all albums for user 2
+2024-08-26 20:44:16 [Information] - Adding a new album for user 2
+2024-08-26 20:44:16 [Information] - Successfully added a new album with ID: 36 for user 2
+2024-08-26 20:44:18 [Information] - Adding a new album for user 2
+2024-08-26 20:44:18 [Information] - Successfully added a new album with ID: 37 for user 2
+2024-08-26 20:44:21 [Information] - Version: 1.0 - Fetching all albums for user 2
+2024-08-26 20:44:21 [Information] - Version: 1.0 - Successfully fetched all albums for user 2

@@ -667,3 +667,8 @@
 2024-08-25 20:29:50 [Information] - Successfully fetched all photos
 2024-08-25 20:29:58 [Information] - Fetching all photos
 2024-08-25 20:29:58 [Information] - Successfully fetched all photos
+2024-08-26 10:51:14 [Information] - Logging in user: giquardo
+2024-08-26 10:51:14 [Information] - Successfully logged in user: giquardo
+2024-08-26 10:51:28 [Information] - Fetching user with ID: 1
+2024-08-26 10:51:28 [Information] - Successfully fetched user with ID: 1
+2024-08-26 10:52:46 [Information] - Creating user: Alessia

@@ -148,3 +148,9 @@ C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbu
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbumApi\obj\Debug\net8.0\Backend_dev.pdb
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbumApi\obj\Debug\net8.0\Backend_dev.genruntimeconfig.cache
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbumApi\obj\Debug\net8.0\ref\Backend_dev.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbumApi\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbumApi\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbumApi\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbumApi\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbumApi\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbumApi\bin\Debug\net8.0\Grpc.Net.Common.dll

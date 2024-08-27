@@ -1,0 +1,25 @@
+2024-08-27 12:16:36.079 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 12:16:36.150 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-27 12:16:36.153 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-27 12:16:36.154 +02:00 [INF] Hosting environment: Development
+2024-08-27 12:16:36.155 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\PhotoAlbumApi
+2024-08-27 12:16:39.782 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/users/login - application/json 49
+2024-08-27 12:16:39.829 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 12:16:39.842 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhotoAlbumApi.Models.LoginModel) on controller PhotoAlbumApi.Controllers.UserController (Backend_dev).
+2024-08-27 12:16:40.000 +02:00 [INF] Logging in user: giquardo
+2024-08-27 12:16:40.730 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Email`, `t`.`IsAdmin`, `t`.`Password`, `t`.`Username`, `a`.`Id`, `a`.`Description`, `a`.`IsDeleted`, `a`.`Title`, `a`.`UserId`
+FROM (
+    SELECT `u`.`Id`, `u`.`Email`, `u`.`IsAdmin`, `u`.`Password`, `u`.`Username`
+    FROM `Users` AS `u`
+    WHERE `u`.`Username` = @__username_0
+    LIMIT 1
+) AS `t`
+LEFT JOIN `Albums` AS `a` ON `t`.`Id` = `a`.`UserId`
+ORDER BY `t`.`Id`
+2024-08-27 12:16:40.784 +02:00 [INF] Successfully logged in user: giquardo
+2024-08-27 12:16:40.801 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-27 12:16:40.818 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.UserController.Login (Backend_dev) in 972.1574ms
+2024-08-27 12:16:40.821 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 12:16:40.831 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/users/login - 200 null application/json; charset=utf-8 1050.0876ms
+2024-08-27 12:16:47.051 +02:00 [INF] Application is shutting down...

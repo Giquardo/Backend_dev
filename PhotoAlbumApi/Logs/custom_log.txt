@@ -1,0 +1,2 @@
+2024-08-27 12:16:39 [Information] - Logging in user: giquardo
+2024-08-27 12:16:40 [Information] - Successfully logged in user: giquardo

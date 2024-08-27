@@ -1,8 +1,0 @@
-C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\obj\Debug\net8.0\Backend_dev.csproj.AssemblyReference.cache
-C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\obj\Debug\net8.0\Backend_dev.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\obj\Debug\net8.0\Backend_dev.AssemblyInfoInputs.cache
-C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\obj\Debug\net8.0\Backend_dev.AssemblyInfo.cs
-C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\obj\Debug\net8.0\Backend_dev.csproj.CoreCompileInputs.cache
-C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\obj\Debug\net8.0\Backend_dev.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\obj\Debug\net8.0\Backend_dev.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\obj\Debug\net8.0\Backend_dev.sourcelink.json

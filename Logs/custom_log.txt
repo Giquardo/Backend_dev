@@ -854,3 +854,102 @@
 2024-08-26 20:44:18 [Information] - Successfully added a new album with ID: 37 for user 2
 2024-08-26 20:44:21 [Information] - Version: 1.0 - Fetching all albums for user 2
 2024-08-26 20:44:21 [Information] - Version: 1.0 - Successfully fetched all albums for user 2
+2024-08-26 22:20:44 [Information] - Logging in user: giquardo
+2024-08-26 22:20:45 [Information] - Successfully logged in user: giquardo
+2024-08-26 22:20:56 [Information] - Logging in user: alessia
+2024-08-26 22:20:56 [Information] - Successfully logged in user: alessia
+2024-08-26 22:21:12 [Information] - Fetching all photos for user 2
+2024-08-26 22:21:12 [Information] - Successfully fetched all photos for user 2
+2024-08-26 22:35:04 [Information] - Logging in user: giquardo
+2024-08-26 22:35:05 [Information] - Successfully logged in user: giquardo
+2024-08-26 22:35:26 [Information] - Version: 1.0 - Fetching all albums for user 1
+2024-08-26 22:35:26 [Information] - Version: 1.0 - Successfully fetched all albums for user 1
+2024-08-26 22:43:15 [Information] - Adding a new photo for user 1
+2024-08-26 22:43:16 [Information] - Successfully added a new photo with ID: 1 for user 1
+2024-08-26 22:44:01 [Information] - Version: 1.0 - Fetching all albums for user 1
+2024-08-26 22:44:01 [Information] - Version: 1.0 - Successfully fetched all albums for user 1
+2024-08-26 22:57:39 [Information] - Version: 1.0 - Fetching all albums for user 1
+2024-08-26 22:57:39 [Information] - Version: 1.0 - Successfully fetched all albums for user 1
+2024-08-26 22:57:55 [Information] - Logging in user: giquardo
+2024-08-26 22:57:55 [Information] - Successfully logged in user: giquardo
+2024-08-26 22:58:14 [Information] - Version: 1.0 - Fetching all albums for user 1
+2024-08-26 22:58:14 [Information] - Version: 1.0 - Successfully fetched all albums for user 1
+2024-08-26 22:58:22 [Information] - Fetching all photos for user 1
+2024-08-26 22:59:09 [Information] - Fetching all photos for user 1
+2024-08-26 22:59:10 [Information] - Successfully fetched all photos for user 1
+2024-08-26 22:59:28 [Information] - Fetching photo with ID: 1 for user 1
+2024-08-26 22:59:29 [Information] - Successfully fetched photo with ID: 1 for user 1
+2024-08-26 23:00:16 [Information] - Adding a new photo for user 1
+2024-08-26 23:00:17 [Information] - Successfully added a new photo with ID: 2 for user 1
+2024-08-26 23:01:23 [Information] - Updating photo with ID: 1 for user 1
+2024-08-26 23:01:23 [Information] - DATABASE: Starting update for photo with ID: 1 and URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:01:23 [Information] - DATABASE: Found existing photo with ID: 1 and URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:01:23 [Information] - DATABASE: Original URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg, Incoming URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:01:23 [Information] - DATABASE: URLs are the same. No need to download a new image file.
+2024-08-26 23:01:23 [Information] - DATABASE: Successfully updated photo with ID: 1
+2024-08-26 23:01:23 [Information] - Cache invalidated for photo ID: 1 for user 1
+2024-08-26 23:02:12 [Information] - Attempting to delete photo with ID: 2 for user 1
+2024-08-26 23:02:13 [Warning] - Photo with ID: 2 not found for user 1
+2024-08-26 23:04:06 [Information] - Attempting to delete photo with ID: 2 for user 1
+2024-08-26 23:04:07 [Information] - Successfully deleted photo with ID: 2 for user 1
+2024-08-26 23:04:07 [Information] - Cache invalidated for photo ID: 2 for user 1
+2024-08-26 23:04:25 [Information] - Fetching all photos for user 1
+2024-08-26 23:04:25 [Information] - Successfully fetched all photos for user 1
+2024-08-26 23:04:27 [Information] - Fetching all photos for user 1
+2024-08-26 23:04:27 [Information] - Successfully fetched all photos for user 1
+2024-08-26 23:07:15 [Information] - Fetching all photos for user 1
+2024-08-26 23:07:15 [Information] - Successfully fetched all photos for user 1
+2024-08-26 23:07:26 [Information] - Attempting to undo delete for photo with ID: 2 for user 1
+2024-08-26 23:07:26 [Warning] - Photo with ID: 2 not found for user 1
+2024-08-26 23:10:46 [Information] - Attempting to undo delete for photo with ID: 2 for user 1
+2024-08-26 23:10:46 [Information] - Successfully restored photo with ID: 2 for user 1
+2024-08-26 23:10:46 [Information] - Cache invalidated for photo ID: 2 for user 1
+2024-08-26 23:12:36 [Information] - Attempting to undo delete for photo with ID: 2 for user 1
+2024-08-26 23:12:37 [Information] - Successfully restored photo with ID: 2 for user 1
+2024-08-26 23:12:37 [Information] - Cache invalidated for photo ID: 2 for user 1
+2024-08-26 23:12:49 [Information] - Fetching all photos for user 1
+2024-08-26 23:12:49 [Information] - Successfully fetched all photos for user 1
+2024-08-26 23:13:00 [Information] - Updating photo with ID: 1 for user 1
+2024-08-26 23:13:00 [Information] - DATABASE: Starting update for photo with ID: 1 and URL: 
+2024-08-26 23:13:00 [Information] - DATABASE: Found existing photo with ID: 1 and URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:13:00 [Information] - DATABASE: Original URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg, Incoming URL: 
+2024-08-26 23:13:00 [Information] - DATABASE: URLs are different. Downloading the new image file.
+2024-08-26 23:13:00 [Error] - DATABASE: Error occurred while downloading or processing the new image: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+2024-08-26 23:17:25 [Information] - Updating photo with ID: 1 for user 1
+2024-08-26 23:17:25 [Information] - DATABASE: Starting update for photo with ID: 1 and URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:17:25 [Information] - DATABASE: Found existing photo with ID: 1 and URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:17:25 [Information] - DATABASE: Original URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg, Incoming URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:17:25 [Information] - DATABASE: URLs are the same. No need to download a new image file.
+2024-08-26 23:17:25 [Information] - DATABASE: Successfully updated photo with ID: 1
+2024-08-26 23:17:26 [Information] - Cache invalidated for photo ID: 1 for user 1
+2024-08-27 00:21:11 [Information] - Logging in user: giquardo
+2024-08-27 00:21:11 [Information] - Successfully logged in user: giquardo
+2024-08-27 00:34:54 [Information] - Adding a new photo for user 1
+2024-08-27 00:34:54 [Information] - Successfully added a new photo with ID: 3 for user 1
+2024-08-27 09:35:06 [Information] - Logging in user: giquardo
+2024-08-27 09:35:07 [Information] - Successfully logged in user: giquardo
+2024-08-27 09:35:28 [Information] - Fetching all photos for user 1
+2024-08-27 09:35:28 [Information] - Successfully fetched all photos for user 1
+2024-08-27 09:36:13 [Information] - Uploading a new photo for user 1
+2024-08-27 09:36:13 [Information] - Successfully uploaded a new photo with ID: 4 for user 1
+2024-08-27 09:37:08 [Information] - Fetching all photos for user 1
+2024-08-27 09:37:08 [Information] - Successfully fetched all photos for user 1
+2024-08-27 09:37:12 [Information] - Fetching all photos for user 1
+2024-08-27 09:37:12 [Information] - Successfully fetched all photos for user 1
+2024-08-27 09:39:12 [Information] - Fetching all photos for user 1
+2024-08-27 09:39:12 [Information] - Successfully fetched all photos for user 1
+2024-08-27 09:39:36 [Information] - Uploading a new photo for user 1
+2024-08-27 09:39:36 [Information] - Successfully uploaded a new photo with ID: 5 for user 1
+2024-08-27 09:39:39 [Information] - Fetching all photos for user 1
+2024-08-27 09:39:39 [Information] - Successfully fetched all photos for user 1
+2024-08-27 09:39:49 [Information] - Fetching photo with ID: 5 for user 1
+2024-08-27 09:39:49 [Information] - Successfully fetched photo with ID: 5 for user 1
+2024-08-27 09:39:55 [Information] - Attempting to delete photo with ID: 5 for user 1
+2024-08-27 09:39:55 [Information] - Successfully deleted photo with ID: 5 for user 1
+2024-08-27 09:39:55 [Information] - Cache invalidated for photo ID: 5 for user 1
+2024-08-27 09:40:14 [Information] - Fetching photo with ID: 5 for user 1
+2024-08-27 09:40:14 [Warning] - Photo with ID: 5 not found for user 1
+2024-08-27 09:40:17 [Information] - Fetching all photos for user 1
+2024-08-27 09:40:17 [Information] - Successfully fetched all photos for user 1
+2024-08-27 09:40:19 [Information] - Fetching all photos for user 1
+2024-08-27 09:40:19 [Information] - Successfully fetched all photos for user 1

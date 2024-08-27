@@ -2134,3 +2134,626 @@ ORDER BY `a`.`Id`
 2024-08-26 20:44:21.938 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
 2024-08-26 20:44:21.939 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/v1/albums - 200 null application/json; charset=utf-8 30.2272ms
 2024-08-26 22:11:30.326 +02:00 [INF] Application is shutting down...
+2024-08-26 22:20:26.905 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 22:20:26.995 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 22:20:26.997 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 22:20:26.998 +02:00 [INF] Hosting environment: Development
+2024-08-26 22:20:26.999 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 22:20:29.507 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/ - null null
+2024-08-26 22:20:29.555 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-08-26 22:20:29.559 +02:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-08-26 22:20:29.561 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-08-26 22:20:29.567 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/ - 302 0 null 60.4507ms
+2024-08-26 22:20:29.576 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.html - null null
+2024-08-26 22:20:29.635 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.html - 200 null text/html;charset=utf-8 59.098ms
+2024-08-26 22:20:29.710 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.js - null null
+2024-08-26 22:20:29.716 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.js - 200 null application/javascript;charset=utf-8 6.2072ms
+2024-08-26 22:20:29.847 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - null null
+2024-08-26 22:20:29.926 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.4393ms
+2024-08-26 22:20:44.293 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/users/login - application/json 49
+2024-08-26 22:20:44.303 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-26 22:20:44.316 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhotoAlbumApi.Models.LoginModel) on controller PhotoAlbumApi.Controllers.UserController (Backend_dev).
+2024-08-26 22:20:44.458 +02:00 [INF] Logging in user: giquardo
+2024-08-26 22:20:45.131 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Email`, `t`.`IsAdmin`, `t`.`Password`, `t`.`Username`, `a`.`Id`, `a`.`Description`, `a`.`IsDeleted`, `a`.`Title`, `a`.`UserId`
+FROM (
+    SELECT `u`.`Id`, `u`.`Email`, `u`.`IsAdmin`, `u`.`Password`, `u`.`Username`
+    FROM `Users` AS `u`
+    WHERE `u`.`Username` = @__username_0
+    LIMIT 1
+) AS `t`
+LEFT JOIN `Albums` AS `a` ON `t`.`Id` = `a`.`UserId`
+ORDER BY `t`.`Id`
+2024-08-26 22:20:45.183 +02:00 [INF] Successfully logged in user: giquardo
+2024-08-26 22:20:45.200 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-26 22:20:45.214 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.UserController.Login (Backend_dev) in 892.279ms
+2024-08-26 22:20:45.217 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-26 22:20:45.225 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/users/login - 200 null application/json; charset=utf-8 931.8264ms
+2024-08-26 22:20:56.921 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/users/login - application/json 48
+2024-08-26 22:20:56.927 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-26 22:20:56.930 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhotoAlbumApi.Models.LoginModel) on controller PhotoAlbumApi.Controllers.UserController (Backend_dev).
+2024-08-26 22:20:56.935 +02:00 [INF] Logging in user: alessia
+2024-08-26 22:20:56.950 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Email`, `t`.`IsAdmin`, `t`.`Password`, `t`.`Username`, `a`.`Id`, `a`.`Description`, `a`.`IsDeleted`, `a`.`Title`, `a`.`UserId`
+FROM (
+    SELECT `u`.`Id`, `u`.`Email`, `u`.`IsAdmin`, `u`.`Password`, `u`.`Username`
+    FROM `Users` AS `u`
+    WHERE `u`.`Username` = @__username_0
+    LIMIT 1
+) AS `t`
+LEFT JOIN `Albums` AS `a` ON `t`.`Id` = `a`.`UserId`
+ORDER BY `t`.`Id`
+2024-08-26 22:20:56.958 +02:00 [INF] Successfully logged in user: alessia
+2024-08-26 22:20:56.960 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-26 22:20:56.962 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.UserController.Login (Backend_dev) in 30.0436ms
+2024-08-26 22:20:56.964 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-26 22:20:56.966 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/users/login - 200 null application/json; charset=utf-8 45.0127ms
+2024-08-26 22:21:12.650 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-26 22:21:12.675 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 22:21:12.682 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 22:21:12.690 +02:00 [INF] Fetching all photos for user 2
+2024-08-26 22:21:12.735 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE `p`.`UserId` = @__userId_0
+2024-08-26 22:21:12.748 +02:00 [INF] Successfully fetched all photos for user 2
+2024-08-26 22:21:12.750 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.PhotoDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 22:21:12.761 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 76.6011ms
+2024-08-26 22:21:12.764 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 22:21:12.765 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 115.7202ms
+2024-08-26 22:23:03.531 +02:00 [INF] Application is shutting down...
+2024-08-26 22:34:50.283 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 22:34:50.366 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 22:34:50.370 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 22:34:50.372 +02:00 [INF] Hosting environment: Development
+2024-08-26 22:34:50.373 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 22:34:51.935 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/ - null null
+2024-08-26 22:34:51.986 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-08-26 22:34:51.990 +02:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-08-26 22:34:51.991 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-08-26 22:34:51.995 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/ - 302 0 null 61.1244ms
+2024-08-26 22:34:52.034 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.html - null null
+2024-08-26 22:34:52.090 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.html - 200 null text/html;charset=utf-8 56.2074ms
+2024-08-26 22:34:52.143 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.js - null null
+2024-08-26 22:34:52.148 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.js - 200 null application/javascript;charset=utf-8 4.4813ms
+2024-08-26 22:34:52.224 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - null null
+2024-08-26 22:34:52.295 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.1337ms
+2024-08-26 22:35:04.415 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/users/login - application/json 49
+2024-08-26 22:35:04.426 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-26 22:35:04.439 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhotoAlbumApi.Models.LoginModel) on controller PhotoAlbumApi.Controllers.UserController (Backend_dev).
+2024-08-26 22:35:04.590 +02:00 [INF] Logging in user: giquardo
+2024-08-26 22:35:05.285 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Email`, `t`.`IsAdmin`, `t`.`Password`, `t`.`Username`, `a`.`Id`, `a`.`Description`, `a`.`IsDeleted`, `a`.`Title`, `a`.`UserId`
+FROM (
+    SELECT `u`.`Id`, `u`.`Email`, `u`.`IsAdmin`, `u`.`Password`, `u`.`Username`
+    FROM `Users` AS `u`
+    WHERE `u`.`Username` = @__username_0
+    LIMIT 1
+) AS `t`
+LEFT JOIN `Albums` AS `a` ON `t`.`Id` = `a`.`UserId`
+ORDER BY `t`.`Id`
+2024-08-26 22:35:05.336 +02:00 [INF] Successfully logged in user: giquardo
+2024-08-26 22:35:05.354 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType4`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-26 22:35:05.366 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.UserController.Login (Backend_dev) in 922.356ms
+2024-08-26 22:35:05.369 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-26 22:35:05.374 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/users/login - 200 null application/json; charset=utf-8 959.2869ms
+2024-08-26 22:35:26.015 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/v1/albums - null null
+2024-08-26 22:35:26.042 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-26 22:35:26.049 +02:00 [INF] Route matched with {action = "GetAlbumsV1", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAlbumsV1() on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-26 22:35:26.058 +02:00 [INF] Version: 1.0 - Fetching all albums for user 1
+2024-08-26 22:35:26.088 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Description`, `a`.`IsDeleted`, `a`.`Title`, `a`.`UserId`, `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Albums` AS `a`
+LEFT JOIN `Photos` AS `p` ON `a`.`Id` = `p`.`AlbumId`
+WHERE (`a`.`UserId` = @__userId_0) AND NOT (`a`.`IsDeleted`)
+ORDER BY `a`.`Id`
+2024-08-26 22:35:26.106 +02:00 [INF] Version: 1.0 - Successfully fetched all albums for user 1
+2024-08-26 22:35:26.108 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.AlbumSummaryDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 22:35:26.121 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev) in 67.0168ms
+2024-08-26 22:35:26.123 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-26 22:35:26.124 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/v1/albums - 200 null application/json; charset=utf-8 108.7138ms
+2024-08-26 22:41:45.478 +02:00 [INF] Application is shutting down...
+2024-08-26 22:41:49.377 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 22:41:49.451 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 22:41:49.454 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 22:41:49.455 +02:00 [INF] Hosting environment: Development
+2024-08-26 22:41:49.457 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 22:41:59.995 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.html - null null
+2024-08-26 22:42:00.094 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.html - 200 null text/html;charset=utf-8 99.2278ms
+2024-08-26 22:42:00.150 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.js - null null
+2024-08-26 22:42:00.155 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.js - 200 null application/javascript;charset=utf-8 5.0585ms
+2024-08-26 22:42:00.264 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - null null
+2024-08-26 22:42:00.343 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.2551ms
+2024-08-26 22:43:15.060 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/photos - application/json 170
+2024-08-26 22:43:15.103 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev)'
+2024-08-26 22:43:15.116 +02:00 [INF] Route matched with {action = "AddPhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddPhoto(PhotoAlbumApi.DTOs.PhotoDto) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 22:43:15.270 +02:00 [INF] Adding a new photo for user 1
+2024-08-26 22:43:16.513 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@__photo_Hash_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE `p`.`Hash` = @__photo_Hash_0
+LIMIT 1
+2024-08-26 22:43:16.624 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 500), @p3='?' (Size = 10), @p4='?' (Size = 255), @p5='?' (Size = 64), @p6='?' (DbType = SByte), @p7='?' (Size = 100), @p8='?' (Size = 2083), @p9='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Photos` (`AlbumId`, `DateUploaded`, `Description`, `Extension`, `FilePath`, `Hash`, `IsDeleted`, `Title`, `Url`, `UserId`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+SELECT `Id`
+FROM `Photos`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-08-26 22:43:16.648 +02:00 [INF] Successfully added a new photo with ID: 1 for user 1
+2024-08-26 22:43:16.653 +02:00 [INF] Executing ObjectResult, writing value of type 'PhotoAlbumApi.Models.Photo'.
+2024-08-26 22:43:16.672 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev) in 1550.6918ms
+2024-08-26 22:43:16.674 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev)'
+2024-08-26 22:43:16.681 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/photos - 201 null application/json; charset=utf-8 1621.2918ms
+2024-08-26 22:44:01.188 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/v1/albums - null null
+2024-08-26 22:44:01.196 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-26 22:44:01.202 +02:00 [INF] Route matched with {action = "GetAlbumsV1", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAlbumsV1() on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-26 22:44:01.210 +02:00 [INF] Version: 1.0 - Fetching all albums for user 1
+2024-08-26 22:44:01.273 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Description`, `a`.`IsDeleted`, `a`.`Title`, `a`.`UserId`, `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Albums` AS `a`
+LEFT JOIN `Photos` AS `p` ON `a`.`Id` = `p`.`AlbumId`
+WHERE (`a`.`UserId` = @__userId_0) AND NOT (`a`.`IsDeleted`)
+ORDER BY `a`.`Id`
+2024-08-26 22:44:01.299 +02:00 [INF] Version: 1.0 - Successfully fetched all albums for user 1
+2024-08-26 22:44:01.302 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.AlbumSummaryDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 22:44:01.308 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev) in 101.022ms
+2024-08-26 22:44:01.310 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-26 22:44:01.311 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/v1/albums - 200 null application/json; charset=utf-8 123.1668ms
+2024-08-26 22:45:44.719 +02:00 [INF] Application is shutting down...
+2024-08-26 22:57:33.236 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 22:57:33.319 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 22:57:33.322 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 22:57:33.323 +02:00 [INF] Hosting environment: Development
+2024-08-26 22:57:33.324 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 22:57:38.970 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/v1/albums - null null
+2024-08-26 22:57:39.050 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-26 22:57:39.061 +02:00 [INF] Route matched with {action = "GetAlbumsV1", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAlbumsV1() on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-26 22:57:39.184 +02:00 [INF] Version: 1.0 - Fetching all albums for user 1
+2024-08-26 22:57:39.914 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Description`, `a`.`IsDeleted`, `a`.`Title`, `a`.`UserId`, `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Albums` AS `a`
+LEFT JOIN `Photos` AS `p` ON `a`.`Id` = `p`.`AlbumId`
+WHERE (`a`.`UserId` = @__userId_0) AND NOT (`a`.`IsDeleted`)
+ORDER BY `a`.`Id`
+2024-08-26 22:57:39.977 +02:00 [INF] Version: 1.0 - Successfully fetched all albums for user 1
+2024-08-26 22:57:39.984 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.AlbumSummaryDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 22:57:40.038 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev) in 971.6643ms
+2024-08-26 22:57:40.040 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-26 22:57:40.046 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/v1/albums - 200 null application/json; charset=utf-8 1076.4651ms
+2024-08-26 22:57:44.236 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.html - null null
+2024-08-26 22:57:44.273 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.html - 200 null text/html;charset=utf-8 36.8709ms
+2024-08-26 22:57:44.302 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.js - null null
+2024-08-26 22:57:44.309 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.js - 200 null application/javascript;charset=utf-8 7.3136ms
+2024-08-26 22:57:44.430 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - null null
+2024-08-26 22:57:44.497 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 66.5085ms
+2024-08-26 22:57:55.693 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/users/login - application/json 49
+2024-08-26 22:57:55.699 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-26 22:57:55.706 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhotoAlbumApi.Models.LoginModel) on controller PhotoAlbumApi.Controllers.UserController (Backend_dev).
+2024-08-26 22:57:55.731 +02:00 [INF] Logging in user: giquardo
+2024-08-26 22:57:55.762 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`Id`, `t`.`Email`, `t`.`IsAdmin`, `t`.`Password`, `t`.`Username`, `a`.`Id`, `a`.`Description`, `a`.`IsDeleted`, `a`.`Title`, `a`.`UserId`
+FROM (
+    SELECT `u`.`Id`, `u`.`Email`, `u`.`IsAdmin`, `u`.`Password`, `u`.`Username`
+    FROM `Users` AS `u`
+    WHERE `u`.`Username` = @__username_0
+    LIMIT 1
+) AS `t`
+LEFT JOIN `Albums` AS `a` ON `t`.`Id` = `a`.`UserId`
+ORDER BY `t`.`Id`
+2024-08-26 22:57:55.777 +02:00 [INF] Successfully logged in user: giquardo
+2024-08-26 22:57:55.785 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-26 22:57:55.790 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.UserController.Login (Backend_dev) in 81.8299ms
+2024-08-26 22:57:55.792 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-26 22:57:55.794 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/users/login - 200 null application/json; charset=utf-8 101.2233ms
+2024-08-26 22:58:14.606 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/v1/albums - null null
+2024-08-26 22:58:14.612 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-26 22:58:14.616 +02:00 [INF] Route matched with {action = "GetAlbumsV1", controller = "Albums"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAlbumsV1() on controller PhotoAlbumApi.Controllers.AlbumsController (Backend_dev).
+2024-08-26 22:58:14.620 +02:00 [INF] Version: 1.0 - Fetching all albums for user 1
+2024-08-26 22:58:14.626 +02:00 [INF] Version: 1.0 - Successfully fetched all albums for user 1
+2024-08-26 22:58:14.628 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.AlbumSummaryDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 22:58:14.630 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev) in 11.3208ms
+2024-08-26 22:58:14.632 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.AlbumsController.GetAlbumsV1 (Backend_dev)'
+2024-08-26 22:58:14.634 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/v1/albums - 200 null application/json; charset=utf-8 27.8153ms
+2024-08-26 22:58:22.684 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-26 22:58:22.692 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 22:58:22.696 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 22:58:22.703 +02:00 [INF] Fetching all photos for user 1
+2024-08-26 22:58:22.746 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE `p`.`UserId` = @__userId_0
+2024-08-26 22:58:22.755 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 55.5457ms
+2024-08-26 22:58:22.757 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 22:58:22.760 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[PhotoAlbumApi.Models.Photo, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[PhotoAlbumApi.DTOs.PhotoDisplayDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Photo -> PhotoDisplayDto
+PhotoAlbumApi.Models.Photo -> PhotoAlbumApi.DTOs.PhotoDisplayDto
+   at lambda_method211(Closure, Photo, PhotoDisplayDto, ResolutionContext)
+   at lambda_method210(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method210(Closure, Object, IEnumerable`1, ResolutionContext)
+   at PhotoAlbumApi.Controllers.PhotoController.GetPhotos() in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 70
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-26 22:58:22.783 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 500 null text/plain; charset=utf-8 99.2466ms
+2024-08-26 22:59:04.254 +02:00 [INF] Application is shutting down...
+2024-08-26 22:59:07.750 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 22:59:07.827 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 22:59:07.828 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 22:59:07.829 +02:00 [INF] Hosting environment: Development
+2024-08-26 22:59:07.830 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 22:59:09.217 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-26 22:59:09.295 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 22:59:09.305 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 22:59:09.431 +02:00 [INF] Fetching all photos for user 1
+2024-08-26 22:59:10.068 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE `p`.`UserId` = @__userId_0
+2024-08-26 22:59:10.115 +02:00 [INF] Successfully fetched all photos for user 1
+2024-08-26 22:59:10.121 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.PhotoDisplayDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 22:59:10.161 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 853.2056ms
+2024-08-26 22:59:10.164 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 22:59:10.169 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 953.4617ms
+2024-08-26 22:59:28.966 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos/1 - null null
+2024-08-26 22:59:28.975 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhoto (Backend_dev)'
+2024-08-26 22:59:28.983 +02:00 [INF] Route matched with {action = "GetPhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetPhoto(Int32) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 22:59:28.999 +02:00 [INF] Fetching photo with ID: 1 for user 1
+2024-08-26 22:59:29.021 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32), @__userId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE (`p`.`Id` = @__id_0) AND (`p`.`UserId` = @__userId_1)
+LIMIT 1
+2024-08-26 22:59:29.030 +02:00 [INF] Successfully fetched photo with ID: 1 for user 1
+2024-08-26 22:59:29.033 +02:00 [INF] Executing ObjectResult, writing value of type 'PhotoAlbumApi.DTOs.PhotoDisplayDto'.
+2024-08-26 22:59:29.036 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhoto (Backend_dev) in 49.3345ms
+2024-08-26 22:59:29.038 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhoto (Backend_dev)'
+2024-08-26 22:59:29.040 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos/1 - 200 null application/json; charset=utf-8 72.9184ms
+2024-08-26 23:00:16.802 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/photos - application/json 187
+2024-08-26 23:00:16.808 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev)'
+2024-08-26 23:00:16.812 +02:00 [INF] Route matched with {action = "AddPhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddPhoto(PhotoAlbumApi.DTOs.PhotoDto) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:00:16.849 +02:00 [INF] Adding a new photo for user 1
+2024-08-26 23:00:17.150 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__photo_Hash_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE `p`.`Hash` = @__photo_Hash_0
+LIMIT 1
+2024-08-26 23:00:17.227 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 500), @p3='?' (Size = 10), @p4='?' (Size = 255), @p5='?' (Size = 64), @p6='?' (DbType = SByte), @p7='?' (Size = 100), @p8='?' (Size = 2083), @p9='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Photos` (`AlbumId`, `DateUploaded`, `Description`, `Extension`, `FilePath`, `Hash`, `IsDeleted`, `Title`, `Url`, `UserId`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+SELECT `Id`
+FROM `Photos`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-08-26 23:00:17.252 +02:00 [INF] Successfully added a new photo with ID: 2 for user 1
+2024-08-26 23:00:17.255 +02:00 [INF] Executing ObjectResult, writing value of type 'PhotoAlbumApi.DTOs.PhotoDisplayDto'.
+2024-08-26 23:00:17.257 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev) in 441.8938ms
+2024-08-26 23:00:17.260 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.AddPhoto (Backend_dev)'
+2024-08-26 23:00:17.261 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/photos - 201 null application/json; charset=utf-8 459.0859ms
+2024-08-26 23:01:23.353 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:3000/api/photos/1 - application/json 162
+2024-08-26 23:01:23.360 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev)'
+2024-08-26 23:01:23.364 +02:00 [INF] Route matched with {action = "UpdatePhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePhoto(Int32, PhotoAlbumApi.DTOs.PhotoDto) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:01:23.370 +02:00 [INF] Updating photo with ID: 1 for user 1
+2024-08-26 23:01:23.375 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32), @__userId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE (`p`.`Id` = @__id_0) AND (`p`.`UserId` = @__userId_1)
+LIMIT 1
+2024-08-26 23:01:23.383 +02:00 [INF] DATABASE: Starting update for photo with ID: 1 and URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:01:23.390 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__photo_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE `p`.`Id` = @__photo_Id_0
+LIMIT 1
+2024-08-26 23:01:23.397 +02:00 [INF] DATABASE: Found existing photo with ID: 1 and URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:01:23.402 +02:00 [INF] DATABASE: Original URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg, Incoming URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:01:23.404 +02:00 [INF] DATABASE: URLs are the same. No need to download a new image file.
+2024-08-26 23:01:23.414 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p10='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 500), @p3='?' (Size = 10), @p4='?' (Size = 255), @p5='?' (Size = 64), @p6='?' (DbType = SByte), @p7='?' (Size = 100), @p8='?' (Size = 2083), @p9='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Photos` SET `AlbumId` = @p0, `DateUploaded` = @p1, `Description` = @p2, `Extension` = @p3, `FilePath` = @p4, `Hash` = @p5, `IsDeleted` = @p6, `Title` = @p7, `Url` = @p8, `UserId` = @p9
+WHERE `Id` = @p10;
+2024-08-26 23:01:23.417 +02:00 [INF] DATABASE: Successfully updated photo with ID: 1
+2024-08-26 23:01:23.419 +02:00 [INF] Cache invalidated for photo ID: 1 for user 1
+2024-08-26 23:01:23.420 +02:00 [INF] Executing OkObjectResult, writing value of type 'PhotoAlbumApi.DTOs.PhotoDisplayDto'.
+2024-08-26 23:01:23.422 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev) in 55.5666ms
+2024-08-26 23:01:23.423 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev)'
+2024-08-26 23:01:23.425 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:3000/api/photos/1 - 200 null application/json; charset=utf-8 71.3053ms
+2024-08-26 23:02:12.982 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:3000/api/photos/2 - null null
+2024-08-26 23:02:12.986 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.DeletePhoto (Backend_dev)'
+2024-08-26 23:02:12.992 +02:00 [INF] Route matched with {action = "DeletePhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeletePhoto(Int32) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:02:12.998 +02:00 [INF] Attempting to delete photo with ID: 2 for user 1
+2024-08-26 23:02:13.002 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32), @__userId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE (`p`.`Id` = @__id_0) AND (`p`.`UserId` = @__userId_1)
+LIMIT 1
+2024-08-26 23:02:13.006 +02:00 [WRN] Photo with ID: 2 not found for user 1
+2024-08-26 23:02:13.008 +02:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-26 23:02:13.015 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.DeletePhoto (Backend_dev) in 19.7109ms
+2024-08-26 23:02:13.017 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.DeletePhoto (Backend_dev)'
+2024-08-26 23:02:13.020 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:3000/api/photos/2 - 404 null application/json; charset=utf-8 37.7022ms
+2024-08-26 23:04:00.926 +02:00 [INF] Application is shutting down...
+2024-08-26 23:04:04.719 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 23:04:04.795 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 23:04:04.797 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 23:04:04.798 +02:00 [INF] Hosting environment: Development
+2024-08-26 23:04:04.799 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 23:04:06.514 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:3000/api/photos/2 - null null
+2024-08-26 23:04:06.606 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.DeletePhoto (Backend_dev)'
+2024-08-26 23:04:06.620 +02:00 [INF] Route matched with {action = "DeletePhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeletePhoto(Int32) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:04:06.744 +02:00 [INF] Attempting to delete photo with ID: 2 for user 1
+2024-08-26 23:04:07.423 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32), @__userId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE (`p`.`Id` = @__id_0) AND (`p`.`UserId` = @__userId_1)
+LIMIT 1
+2024-08-26 23:04:07.472 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32), @__userId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE (`p`.`Id` = @__id_0) AND (`p`.`UserId` = @__userId_1)
+LIMIT 1
+2024-08-26 23:04:07.532 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = SByte)], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Photos` SET `IsDeleted` = @p0
+WHERE `Id` = @p1;
+2024-08-26 23:04:07.542 +02:00 [INF] Successfully deleted photo with ID: 2 for user 1
+2024-08-26 23:04:07.547 +02:00 [INF] Cache invalidated for photo ID: 2 for user 1
+2024-08-26 23:04:07.552 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-08-26 23:04:07.556 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.DeletePhoto (Backend_dev) in 930.9697ms
+2024-08-26 23:04:07.559 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.DeletePhoto (Backend_dev)'
+2024-08-26 23:04:07.567 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:3000/api/photos/2 - 204 null null 1054.6259ms
+2024-08-26 23:04:25.016 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-26 23:04:25.024 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 23:04:25.029 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:04:25.034 +02:00 [INF] Fetching all photos for user 1
+2024-08-26 23:04:25.054 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE `p`.`UserId` = @__userId_0
+2024-08-26 23:04:25.070 +02:00 [INF] Successfully fetched all photos for user 1
+2024-08-26 23:04:25.074 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.PhotoDisplayDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 23:04:25.113 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 80.8486ms
+2024-08-26 23:04:25.116 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 23:04:25.118 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 101.8872ms
+2024-08-26 23:04:27.787 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-26 23:04:27.794 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 23:04:27.796 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:04:27.800 +02:00 [INF] Fetching all photos for user 1
+2024-08-26 23:04:27.805 +02:00 [INF] Successfully fetched all photos for user 1
+2024-08-26 23:04:27.806 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.PhotoDisplayDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 23:04:27.809 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 10.4322ms
+2024-08-26 23:04:27.810 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 23:04:27.812 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 24.9901ms
+2024-08-26 23:07:10.237 +02:00 [INF] Application is shutting down...
+2024-08-26 23:07:13.384 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 23:07:13.462 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 23:07:13.466 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 23:07:13.468 +02:00 [INF] Hosting environment: Development
+2024-08-26 23:07:13.470 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 23:07:14.880 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-26 23:07:14.974 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 23:07:14.988 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:07:15.113 +02:00 [INF] Fetching all photos for user 1
+2024-08-26 23:07:15.792 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE (`p`.`UserId` = @__userId_0) AND NOT (`p`.`IsDeleted`)
+2024-08-26 23:07:15.837 +02:00 [INF] Successfully fetched all photos for user 1
+2024-08-26 23:07:15.844 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.PhotoDisplayDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 23:07:15.886 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 892.3626ms
+2024-08-26 23:07:15.889 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 23:07:15.895 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 1016.7118ms
+2024-08-26 23:07:26.730 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/photos/2/undo-delete - null 0
+2024-08-26 23:07:26.738 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.UndoDeletePhoto (Backend_dev)'
+2024-08-26 23:07:26.748 +02:00 [INF] Route matched with {action = "UndoDeletePhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UndoDeletePhoto(Int32) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:07:26.762 +02:00 [INF] Attempting to undo delete for photo with ID: 2 for user 1
+2024-08-26 23:07:26.784 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32), @__userId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE ((`p`.`Id` = @__id_0) AND (`p`.`UserId` = @__userId_1)) AND NOT (`p`.`IsDeleted`)
+LIMIT 1
+2024-08-26 23:07:26.790 +02:00 [WRN] Photo with ID: 2 not found for user 1
+2024-08-26 23:07:26.793 +02:00 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-26 23:07:26.800 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.UndoDeletePhoto (Backend_dev) in 48.3353ms
+2024-08-26 23:07:26.802 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.UndoDeletePhoto (Backend_dev)'
+2024-08-26 23:07:26.804 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/photos/2/undo-delete - 404 null application/json; charset=utf-8 73.8922ms
+2024-08-26 23:10:41.046 +02:00 [INF] Application is shutting down...
+2024-08-26 23:10:44.182 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 23:10:44.254 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 23:10:44.257 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 23:10:44.259 +02:00 [INF] Hosting environment: Development
+2024-08-26 23:10:44.260 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 23:10:45.847 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/photos/2/undo-delete - null 0
+2024-08-26 23:10:45.929 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.UndoDeletePhoto (Backend_dev)'
+2024-08-26 23:10:45.943 +02:00 [INF] Route matched with {action = "UndoDeletePhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UndoDeletePhoto(Int32) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:10:46.074 +02:00 [INF] Attempting to undo delete for photo with ID: 2 for user 1
+2024-08-26 23:10:46.723 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32), @__userId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`Description`, `a`.`IsDeleted`, `a`.`Title`, `a`.`UserId`
+FROM `Albums` AS `a`
+WHERE (`a`.`Id` = @__id_0) AND (`a`.`UserId` = @__userId_1)
+LIMIT 1
+2024-08-26 23:10:46.760 +02:00 [INF] Successfully restored photo with ID: 2 for user 1
+2024-08-26 23:10:46.767 +02:00 [INF] Cache invalidated for photo ID: 2 for user 1
+2024-08-26 23:10:46.777 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.UndoDeletePhoto (Backend_dev) in 828.1298ms
+2024-08-26 23:10:46.781 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.UndoDeletePhoto (Backend_dev)'
+2024-08-26 23:10:46.786 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Album -> PhotoDisplayDto
+PhotoAlbumApi.Models.Album -> PhotoAlbumApi.DTOs.PhotoDisplayDto
+   at lambda_method75(Closure, Object, PhotoDisplayDto, ResolutionContext)
+   at PhotoAlbumApi.Controllers.PhotoController.UndoDeletePhoto(Int32 id) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 255
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-26 23:10:46.816 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/photos/2/undo-delete - 500 null text/plain; charset=utf-8 969.9764ms
+2024-08-26 23:12:28.341 +02:00 [INF] Application is shutting down...
+2024-08-26 23:12:32.486 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 23:12:32.558 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 23:12:32.561 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 23:12:32.562 +02:00 [INF] Hosting environment: Development
+2024-08-26 23:12:32.564 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 23:12:36.213 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:3000/api/photos/2/undo-delete - null 0
+2024-08-26 23:12:36.292 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.UndoDeletePhoto (Backend_dev)'
+2024-08-26 23:12:36.304 +02:00 [INF] Route matched with {action = "UndoDeletePhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UndoDeletePhoto(Int32) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:12:36.438 +02:00 [INF] Attempting to undo delete for photo with ID: 2 for user 1
+2024-08-26 23:12:37.041 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32), @__userId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE (`p`.`Id` = @__id_0) AND (`p`.`UserId` = @__userId_1)
+LIMIT 1
+2024-08-26 23:12:37.128 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = SByte)], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Photos` SET `IsDeleted` = @p0
+WHERE `Id` = @p1;
+2024-08-26 23:12:37.136 +02:00 [INF] Successfully restored photo with ID: 2 for user 1
+2024-08-26 23:12:37.141 +02:00 [INF] Cache invalidated for photo ID: 2 for user 1
+2024-08-26 23:12:37.150 +02:00 [INF] Executing ObjectResult, writing value of type 'PhotoAlbumApi.DTOs.PhotoDisplayDto'.
+2024-08-26 23:12:37.185 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.UndoDeletePhoto (Backend_dev) in 876.8403ms
+2024-08-26 23:12:37.187 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.UndoDeletePhoto (Backend_dev)'
+2024-08-26 23:12:37.193 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:3000/api/photos/2/undo-delete - 200 null application/json; charset=utf-8 981.0415ms
+2024-08-26 23:12:49.330 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/api/photos - null null
+2024-08-26 23:12:49.340 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 23:12:49.344 +02:00 [INF] Route matched with {action = "GetPhotos", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPhotos() on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:12:49.350 +02:00 [INF] Fetching all photos for user 1
+2024-08-26 23:12:49.372 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE (`p`.`UserId` = @__userId_0) AND NOT (`p`.`IsDeleted`)
+2024-08-26 23:12:49.384 +02:00 [INF] Successfully fetched all photos for user 1
+2024-08-26 23:12:49.387 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[PhotoAlbumApi.DTOs.PhotoDisplayDto, Backend_dev, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 23:12:49.395 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev) in 47.4018ms
+2024-08-26 23:12:49.397 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.GetPhotos (Backend_dev)'
+2024-08-26 23:12:49.398 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/api/photos - 200 null application/json; charset=utf-8 68.1536ms
+2024-08-26 23:13:00.028 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:3000/api/photos/1 - application/json 72
+2024-08-26 23:13:00.038 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev)'
+2024-08-26 23:13:00.042 +02:00 [INF] Route matched with {action = "UpdatePhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePhoto(Int32, PhotoAlbumApi.DTOs.PhotoDto) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:13:00.077 +02:00 [INF] Updating photo with ID: 1 for user 1
+2024-08-26 23:13:00.118 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32), @__userId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE ((`p`.`Id` = @__id_0) AND (`p`.`UserId` = @__userId_1)) AND NOT (`p`.`IsDeleted`)
+LIMIT 1
+2024-08-26 23:13:00.128 +02:00 [INF] DATABASE: Starting update for photo with ID: 1 and URL: 
+2024-08-26 23:13:00.136 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__photo_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE `p`.`Id` = @__photo_Id_0
+LIMIT 1
+2024-08-26 23:13:00.142 +02:00 [INF] DATABASE: Found existing photo with ID: 1 and URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:13:00.147 +02:00 [INF] DATABASE: Original URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg, Incoming URL: 
+2024-08-26 23:13:00.149 +02:00 [INF] DATABASE: URLs are different. Downloading the new image file.
+2024-08-26 23:13:00.152 +02:00 [ERR] DATABASE: Error occurred while downloading or processing the new image: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+2024-08-26 23:13:00.154 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev) in 109.2962ms
+2024-08-26 23:13:00.155 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev)'
+2024-08-26 23:13:00.158 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+   at System.Net.Http.HttpClient.PrepareRequestMessage(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at PhotoAlbumApi.Repositories.PhotoRepository.DownloadImageAsync(String imageUrl) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 173
+   at PhotoAlbumApi.Repositories.PhotoRepository.UpdatePhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Repositories\PhotoRepository.cs:line 89
+   at PhotoAlbumApi.Services.PhotoAlbumService.UpdatePhotoAsync(Photo photo) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 83
+   at PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto(Int32 id, PhotoDto photoDto) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 184
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-26 23:13:00.176 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:3000/api/photos/1 - 500 null text/plain; charset=utf-8 148.1551ms
+2024-08-26 23:14:38.453 +02:00 [INF] Application is shutting down...
+2024-08-26 23:17:17.087 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 23:17:17.156 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 23:17:17.160 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 23:17:17.161 +02:00 [INF] Hosting environment: Development
+2024-08-26 23:17:17.162 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 23:17:19.390 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:3000/api/photos/1 - application/json 72
+2024-08-26 23:17:19.469 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev)'
+2024-08-26 23:17:19.483 +02:00 [INF] Route matched with {action = "UpdatePhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePhoto(Int32, PhotoAlbumApi.DTOs.PhotoDto) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:17:19.656 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-08-26 23:17:19.684 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev) in 196.7556ms
+2024-08-26 23:17:19.688 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev)'
+2024-08-26 23:17:19.690 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:3000/api/photos/1 - 400 null application/problem+json; charset=utf-8 300.534ms
+2024-08-26 23:17:25.210 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:3000/api/photos/1 - application/json 162
+2024-08-26 23:17:25.218 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev)'
+2024-08-26 23:17:25.220 +02:00 [INF] Route matched with {action = "UpdatePhoto", controller = "Photo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePhoto(Int32, PhotoAlbumApi.DTOs.PhotoDto) on controller PhotoAlbumApi.Controllers.PhotoController (Backend_dev).
+2024-08-26 23:17:25.233 +02:00 [INF] Updating photo with ID: 1 for user 1
+2024-08-26 23:17:25.868 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32), @__userId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE ((`p`.`Id` = @__id_0) AND (`p`.`UserId` = @__userId_1)) AND NOT (`p`.`IsDeleted`)
+LIMIT 1
+2024-08-26 23:17:25.907 +02:00 [INF] DATABASE: Starting update for photo with ID: 1 and URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:17:25.918 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__photo_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`AlbumId`, `p`.`DateUploaded`, `p`.`Description`, `p`.`Extension`, `p`.`FilePath`, `p`.`Hash`, `p`.`IsDeleted`, `p`.`Title`, `p`.`Url`, `p`.`UserId`
+FROM `Photos` AS `p`
+WHERE `p`.`Id` = @__photo_Id_0
+LIMIT 1
+2024-08-26 23:17:25.926 +02:00 [INF] DATABASE: Found existing photo with ID: 1 and URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:17:25.930 +02:00 [INF] DATABASE: Original URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg, Incoming URL: https://i.pinimg.com/originals/d5/6d/7d/d56d7d9b840774e9a05c11ffab5330e0.jpg
+2024-08-26 23:17:25.934 +02:00 [INF] DATABASE: URLs are the same. No need to download a new image file.
+2024-08-26 23:17:25.989 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p10='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 500), @p3='?' (Size = 10), @p4='?' (Size = 255), @p5='?' (Size = 64), @p6='?' (DbType = SByte), @p7='?' (Size = 100), @p8='?' (Size = 2083), @p9='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Photos` SET `AlbumId` = @p0, `DateUploaded` = @p1, `Description` = @p2, `Extension` = @p3, `FilePath` = @p4, `Hash` = @p5, `IsDeleted` = @p6, `Title` = @p7, `Url` = @p8, `UserId` = @p9
+WHERE `Id` = @p10;
+2024-08-26 23:17:26.000 +02:00 [INF] DATABASE: Successfully updated photo with ID: 1
+2024-08-26 23:17:26.002 +02:00 [INF] Cache invalidated for photo ID: 1 for user 1
+2024-08-26 23:17:26.009 +02:00 [INF] Executing OkObjectResult, writing value of type 'PhotoAlbumApi.DTOs.PhotoDisplayDto'.
+2024-08-26 23:17:26.015 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev) in 792.3873ms
+2024-08-26 23:17:26.017 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.PhotoController.UpdatePhoto (Backend_dev)'
+2024-08-26 23:17:26.023 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:3000/api/photos/1 - 200 null application/json; charset=utf-8 812.7212ms
+2024-08-26 23:23:40.620 +02:00 [INF] Application is shutting down...
+2024-08-26 23:26:38.245 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 23:26:38.321 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-26 23:26:38.324 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 23:26:38.326 +02:00 [INF] Hosting environment: Development
+2024-08-26 23:26:38.328 +02:00 [INF] Content root path: C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev
+2024-08-26 23:26:39.987 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/ - null null
+2024-08-26 23:26:40.034 +02:00 [INF] Executing endpoint 'HTTP: GET /'
+2024-08-26 23:26:40.037 +02:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2024-08-26 23:26:40.038 +02:00 [INF] Executed endpoint 'HTTP: GET /'
+2024-08-26 23:26:40.041 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/ - 302 0 null 55.4005ms
+2024-08-26 23:26:40.057 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.html - null null
+2024-08-26 23:26:40.106 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.html - 200 null text/html;charset=utf-8 49.2935ms
+2024-08-26 23:26:40.170 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/index.js - null null
+2024-08-26 23:26:40.177 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/index.js - 200 null application/javascript;charset=utf-8 6.9407ms
+2024-08-26 23:26:40.286 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - null null
+2024-08-26 23:26:40.358 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:3000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.5364ms
+2024-08-26 23:48:02.080 +02:00 [INF] Application is shutting down...

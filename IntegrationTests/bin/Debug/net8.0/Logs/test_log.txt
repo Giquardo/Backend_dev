@@ -1,0 +1,6 @@
+2024-08-27 16:26:13 [Information] - Logging in user: validUser
+2024-08-27 16:26:13 [Information] - Successfully logged in user: validUser
+2024-08-27 16:26:13 [Information] - Generated Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3R1c2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzI0NzY4NzczLCJleHAiOjE3MjQ3NzA1NzMsImlhdCI6MTcyNDc2ODc3M30.mGChJeNq0-g0c4uenBt1-WZSevorWOhkzUYKcNl9xMc
+2024-08-27 16:26:13 [Information] - Authorization Header: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3R1c2VyIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzI0NzY4NzczLCJleHAiOjE3MjQ3NzA1NzMsImlhdCI6MTcyNDc2ODc3M30.mGChJeNq0-g0c4uenBt1-WZSevorWOhkzUYKcNl9xMc
+2024-08-27 16:26:14 [Information] - Response Status Code: Unauthorized
+2024-08-27 16:26:14 [Information] - Logging in user: invalidUser

@@ -1,0 +1,27 @@
+2024-08-27 16:00:24.050 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 16:00:24.096 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-27 16:00:24.134 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/users/login - application/json; charset=utf-8 51
+2024-08-27 16:00:24.165 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 16:00:24.175 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhotoAlbumApi.Models.LoginModel) on controller PhotoAlbumApi.Controllers.UserController (Backend_dev).
+2024-08-27 16:00:24.235 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-27 16:00:24.244 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.UserController.Login (Backend_dev) in 66.5389ms
+2024-08-27 16:00:24.245 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 16:00:24.247 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/users/login - 401 null application/json; charset=utf-8 112.9166ms
+2024-08-27 16:02:27.467 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 16:02:27.505 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-27 16:02:27.543 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/users/login - application/json; charset=utf-8 51
+2024-08-27 16:02:27.573 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 16:02:27.580 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhotoAlbumApi.Models.LoginModel) on controller PhotoAlbumApi.Controllers.UserController (Backend_dev).
+2024-08-27 16:02:27.639 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-27 16:02:27.647 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.UserController.Login (Backend_dev) in 64.5679ms
+2024-08-27 16:02:27.649 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 16:02:27.650 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/users/login - 401 null application/json; charset=utf-8 108.0381ms
+2024-08-27 16:02:39.137 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 16:02:39.177 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-27 16:02:39.212 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/users/login - application/json; charset=utf-8 47
+2024-08-27 16:02:39.244 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 16:02:39.253 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhotoAlbumApi.Models.LoginModel) on controller PhotoAlbumApi.Controllers.UserController (Backend_dev).
+2024-08-27 16:02:39.313 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-27 16:02:39.322 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.UserController.Login (Backend_dev) in 66.778ms
+2024-08-27 16:02:39.324 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 16:02:39.325 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/users/login - 200 null application/json; charset=utf-8 112.9968ms

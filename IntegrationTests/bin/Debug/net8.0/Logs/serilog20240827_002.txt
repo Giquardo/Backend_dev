@@ -1,0 +1,7 @@
+2024-08-27 16:06:46.234 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 16:06:46.248 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-27 16:06:46.251 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/users - null null
+2024-08-27 16:06:46.256 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-08-27 16:06:46.258 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-08-27 16:06:46.259 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/users - 401 null null 8.5541ms

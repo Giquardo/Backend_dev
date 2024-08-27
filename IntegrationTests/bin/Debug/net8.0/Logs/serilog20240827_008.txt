@@ -1,0 +1,2 @@
+2024-08-27 16:10:22.621 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 16:10:22.635 +02:00 [INF] Now listening on: http://localhost:3000

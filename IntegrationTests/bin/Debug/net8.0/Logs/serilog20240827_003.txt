@@ -1,0 +1,18 @@
+2024-08-27 16:06:46.277 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 16:06:46.285 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-27 16:06:46.287 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/users/login - application/json; charset=utf-8 51
+2024-08-27 16:06:46.291 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 16:06:46.294 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhotoAlbumApi.Models.LoginModel) on controller PhotoAlbumApi.Controllers.UserController (Backend_dev).
+2024-08-27 16:06:46.296 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-27 16:06:46.297 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.UserController.Login (Backend_dev) in 2.4759ms
+2024-08-27 16:06:46.297 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 16:06:46.297 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/users/login - 401 null application/json; charset=utf-8 10.0443ms
+2024-08-27 16:09:59.262 +02:00 [INF] User profile is available. Using 'C:\Users\gigi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 16:09:59.298 +02:00 [INF] Now listening on: http://localhost:3000
+2024-08-27 16:09:59.333 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/users/login - application/json; charset=utf-8 47
+2024-08-27 16:09:59.362 +02:00 [INF] Executing endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 16:09:59.370 +02:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(PhotoAlbumApi.Models.LoginModel) on controller PhotoAlbumApi.Controllers.UserController (Backend_dev).
+2024-08-27 16:09:59.390 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-27 16:09:59.399 +02:00 [INF] Executed action PhotoAlbumApi.Controllers.UserController.Login (Backend_dev) in 26.9366ms
+2024-08-27 16:09:59.401 +02:00 [INF] Executed endpoint 'PhotoAlbumApi.Controllers.UserController.Login (Backend_dev)'
+2024-08-27 16:09:59.402 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/users/login - 200 null application/json; charset=utf-8 69.5454ms

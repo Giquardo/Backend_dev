@@ -953,3 +953,74 @@
 2024-08-27 09:40:17 [Information] - Successfully fetched all photos for user 1
 2024-08-27 09:40:19 [Information] - Fetching all photos for user 1
 2024-08-27 09:40:19 [Information] - Successfully fetched all photos for user 1
+2024-08-27 09:58:39 [Information] - Fetching all photos for user 1
+2024-08-27 09:58:39 [Information] - Successfully fetched all photos for user 1
+2024-08-27 09:58:48 [Information] - Attempting to undo delete for photo with ID: 5 for user 1
+2024-08-27 09:58:48 [Information] - Successfully restored photo with ID: 5 for user 1
+2024-08-27 09:58:48 [Information] - Cache invalidated for photo ID: 5 for user 1
+2024-08-27 09:58:48 [Information] - Cache invalidated for all photos for user 1
+2024-08-27 09:58:56 [Information] - Fetching all photos for user 1
+2024-08-27 09:58:56 [Information] - Successfully fetched all photos for user 1
+2024-08-27 09:59:28 [Information] - Adding a new photo for user 1 from URL: https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg
+2024-08-27 09:59:28 [Error] - Error adding photo: System.InvalidOperationException: An image with the same hash already exists.
+   at PhotoAlbumApi.Services.PhotoAlbumService.AddPhotoAsync(Photo photo, String imageUrl, IFormFile file) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 98
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(PhotoDto photoDto) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 181
+2024-08-27 10:00:00 [Information] - Adding a new photo for user 1 from URL: https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?cs=srgb&dl=pexels-eberhardgross-1421903.jpg&fm=jpg
+2024-08-27 10:00:00 [Information] - Successfully added a new photo with ID: 6 for user 1
+2024-08-27 10:00:04 [Information] - Fetching all photos for user 1
+2024-08-27 10:00:04 [Information] - Successfully fetched all photos for user 1
+2024-08-27 10:00:13 [Information] - Adding a new photo for user 1 from URL: https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?cs=srgb&dl=pexels-eberhardgross-1421903.jpg&fm=jpg
+2024-08-27 10:00:13 [Error] - Error adding photo: System.InvalidOperationException: An image with the same hash already exists.
+   at PhotoAlbumApi.Services.PhotoAlbumService.AddPhotoAsync(Photo photo, String imageUrl, IFormFile file) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 98
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(PhotoDto photoDto) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 181
+2024-08-27 10:00:23 [Information] - Adding a new photo for user 1 from URL: 
+2024-08-27 10:00:23 [Error] - An unexpected error occurred while adding the photo: System.ArgumentException: Either a URL or a file must be provided.
+   at PhotoAlbumApi.Services.PhotoAlbumService.AddPhotoAsync(Photo photo, String imageUrl, IFormFile file) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 88
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(PhotoDto photoDto) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 181
+2024-08-27 10:01:29 [Information] - Adding a new photo for user 1 from URL: https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?cs=srgb&dl=pexels-eberhardgross-1421903.jp
+2024-08-27 10:01:32 [Error] - Error adding photo: System.InvalidOperationException: An image with the same hash already exists.
+   at PhotoAlbumApi.Services.PhotoAlbumService.AddPhotoAsync(Photo photo, String imageUrl, IFormFile file) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 98
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(PhotoDto photoDto) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 181
+2024-08-27 10:01:40 [Information] - Adding a new photo for user 1 from URL: https://images.pexels.com/photos/142p
+2024-08-27 10:01:41 [Error] - An unexpected error occurred while adding the photo: System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at PhotoAlbumApi.Services.ImageService.DownloadImageAsync(String imageUrl) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\ImageDownloadService.cs:line 21
+   at PhotoAlbumApi.Services.PhotoAlbumService.AddPhotoAsync(Photo photo, String imageUrl, IFormFile file) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Services\PhotoAlbumService.cs:line 80
+   at PhotoAlbumApi.Controllers.PhotoController.AddPhoto(PhotoDto photoDto) in C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Controllers\PhotoController.cs:line 181
+2024-08-27 10:05:13 [Information] - Fetching all photos for user 1
+2024-08-27 10:05:14 [Information] - Successfully fetched all photos for user 1
+2024-08-27 10:06:49 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:06:49 [Warning] - Photo with ID: 6 not found for user 1
+2024-08-27 10:06:54 [Information] - Fetching all photos for user 1
+2024-08-27 10:06:54 [Information] - Successfully fetched all photos for user 1
+2024-08-27 10:08:04 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:08:05 [Information] - Cache invalidated for photo ID: 6 for user 1
+2024-08-27 10:11:18 [Information] - Logging in user: giquardo
+2024-08-27 10:11:18 [Information] - Successfully logged in user: giquardo
+2024-08-27 10:11:38 [Information] - Fetching all photos for user 1
+2024-08-27 10:11:38 [Information] - Successfully fetched all photos for user 1
+2024-08-27 10:11:44 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:11:44 [Information] - Updating photo with ID: 6
+2024-08-27 10:11:44 [Information] - Cache invalidated for photo ID: 6 for user 1
+2024-08-27 10:20:49 [Information] - Fetching all photos for user 1
+2024-08-27 10:20:50 [Information] - Successfully fetched all photos for user 1
+2024-08-27 10:21:19 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:21:19 [Error] - Failed to update photo with ID: 6 for user 1
+2024-08-27 10:21:22 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:21:22 [Error] - Failed to update photo with ID: 6 for user 1
+2024-08-27 10:22:14 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:22:14 [Information] - Cache invalidated for photo ID: 6 for user 1
+2024-08-27 10:22:14 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:22:14 [Information] - Cache invalidated for photo ID: 6 for user 1
+2024-08-27 10:25:19 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:25:19 [Error] - Failed to update photo with ID: 6 for user 1
+2024-08-27 10:28:13 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:28:14 [Information] - Cache invalidated for photo ID: 6 for user 1
+2024-08-27 10:28:51 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:28:51 [Information] - Cache invalidated for photo ID: 6 for user 1
+2024-08-27 10:29:07 [Information] - Updating photo with ID: 6 for user 1
+2024-08-27 10:29:08 [Information] - Cache invalidated for photo ID: 6 for user 1
+2024-08-27 10:38:17 [Information] - Downloading photo with ID: 1 for user 1
+2024-08-27 10:38:28 [Information] - Downloading photo with ID: 7 for user 1
+2024-08-27 10:38:28 [Warning] - Photo with ID: 7 not found for user 1
+2024-08-27 10:38:32 [Information] - Downloading photo with ID: 6 for user 1

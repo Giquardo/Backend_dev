@@ -1,2 +1,0 @@
-obj\Debug\net8.0\Protos/Photo.cs \
-obj\Debug\net8.0\Protos/PhotoGrpc.cs: Protos/photo.proto

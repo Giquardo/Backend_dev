@@ -467,3 +467,6 @@ C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\Integrati
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\IntegrationTests\obj\Debug\net8.0\IntegrationTests.pdb
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\IntegrationTests\obj\Debug\net8.0\IntegrationTests.genruntimeconfig.cache
 C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\IntegrationTests\obj\Debug\net8.0\ref\IntegrationTests.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\IntegrationTests\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\IntegrationTests\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Users\gigi\Desktop\AI\AI\Semester_4\Backend_Development\Backend_dev\IntegrationTests\bin\Debug\net8.0\Grpc.Net.Common.dll
